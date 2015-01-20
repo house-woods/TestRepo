@@ -1,0 +1,240 @@
+load averages:  8.86,  9.09,  9.18    10:53:46
+429 processes: 426 sleeping, 3 on cpu
+
+Memory: 16G real, 428M free, 33G swap in use, 15G swap free
+
+
+   PID USERNAME LWP PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+ 27611 wfang      8   0    0  197M  102M cpu/2   95.4H  6.21% sysmon.exe
+ 28438 jyu6       1   0    0 1832K 1360K sleep  365.0H  2.79% CreateUser.sh
+ 19401 cyuan1     1   0    0 1832K 1056K cpu/14 559.1H  2.78% CreateUser.sh
+ 29805 jyu6       1   0    0 2080K  912K sleep  433.7H  1.09% installEMS
+ 23375 jyu6       1   0    0 2080K  920K sleep  362.8H  1.09% installEMS
+  2502 jyu6       1   0    0 2080K  912K sleep  362.3H  1.08% installEMS
+  6812 jyu6       1   0    0 2080K  912K sleep  363.3H  1.08% installEMS
+  3076 jyu6       1   0    0 2080K  920K sleep  359.6H  1.07% installEMS
+ 11378 oracle    11  59    0 6278M 6258M sleep  458:11  0.06% oracle
+ 13739 oracle    11  59    0 6279M 6258M sleep  540:40  0.05% oracle
+  9075 jwang15    9  59    0 1005M  135M sleep   22.6H  0.04% sysmon.exe
+  6754 jwang15  111  59    0  748M  350M sleep   55:12  0.04% cm.exe
+ 22683 wfang     53  59    0  480M  378M sleep  383:23  0.04% cm.exe
+ 16912 bning    161  59    0  339M  241M sleep  320:32  0.03% cm.exe
+ 25245 jwu1     122  59    0  383M  250M sleep  863:23  0.03% cm.exe
+
+5.10
+load averages:  8.86,  9.09,  9.18    10:53:46
+429 processes: 425 sleeping, 4 on cpu
+
+Memory: 16G real, 427M free, 33G swap in use, 15G swap free
+
+
+   PID USERNAME LWP PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+ 27611 wfang      8   0    0  197M  102M cpu/2   95.4H  6.21% sysmon.exe
+ 28438 jyu6       1   0    0 1832K 1360K sleep  365.0H  2.79% CreateUser.sh
+ 19401 cyuan1     1   0    0 1832K 1056K cpu/7  559.1H  2.78% CreateUser.sh
+ 29805 jyu6       1   0    0 2080K  912K sleep  433.7H  1.09% installEMS
+ 23375 jyu6       1   0    0 2080K  920K sleep  362.8H  1.09% installEMS
+  2502 jyu6       1   0    0 2080K  912K cpu/0  362.3H  1.08% installEMS
+  6812 jyu6       1   0    0 2080K  912K sleep  363.3H  1.08% installEMS
+  3076 jyu6       1   0    0 2080K  920K sleep  359.6H  1.07% installEMS
+ 11378 oracle    11  59    0 6278M 6258M sleep  458:11  0.06% oracle
+ 13739 oracle    11  59    0 6279M 6258M sleep  540:40  0.05% oracle
+  9075 jwang15    9  59    0 1005M  135M sleep   22.6H  0.04% sysmon.exe
+  6754 jwang15  111  59    0  748M  350M sleep   55:12  0.04% cm.exe
+ 22683 wfang     53  59    0  480M  378M sleep  383:23  0.04% cm.exe
+ 16912 bning    161  59    0  339M  241M sleep  320:32  0.03% cm.exe
+ 25245 jwu1     122  59    0  383M  250M sleep  863:23  0.03% cm.exe
+
+5.10
+load averages:  8.86,  9.09,  9.18    10:53:46
+429 processes: 426 sleeping, 3 on cpu
+
+Memory: 16G real, 427M free, 33G swap in use, 15G swap free
+
+
+   PID USERNAME LWP PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+ 27611 wfang      8  50    0  197M  102M cpu/2   95.4H  6.21% sysmon.exe
+ 28438 jyu6       1  40    0 1832K 1360K sleep  365.0H  2.79% CreateUser.sh
+ 19401 cyuan1     1  40    0 1832K 1056K cpu/6  559.1H  2.78% CreateUser.sh
+ 29805 jyu6       1   0    0 2080K  912K sleep  433.7H  1.09% installEMS
+ 23375 jyu6       1   0    0 2080K  920K sleep  362.8H  1.09% installEMS
+  2502 jyu6       1   0    0 2080K  912K sleep  362.3H  1.08% installEMS
+  6812 jyu6       1   0    0 2080K  912K sleep  363.3H  1.08% installEMS
+  3076 jyu6       1   0    0 2080K  920K sleep  359.6H  1.07% installEMS
+ 11378 oracle    11  59    0 6278M 6258M sleep  458:11  0.06% oracle
+ 13739 oracle    11  59    0 6279M 6258M sleep  540:40  0.05% oracle
+  9075 jwang15    9  59    0 1005M  135M sleep   22.6H  0.04% sysmon.exe
+  6754 jwang15  111  59    0  748M  350M sleep   55:12  0.04% cm.exe
+ 22683 wfang     53  59    0  480M  378M sleep  383:23  0.04% cm.exe
+ 16912 bning    161  59    0  339M  241M sleep  320:32  0.03% cm.exe
+ 25245 jwu1     122  59    0  383M  250M sleep  863:23  0.03% cm.exe
+
+5.10
+load averages:  8.86,  9.09,  9.18    10:53:46
+430 processes: 426 sleeping, 4 on cpu
+
+Memory: 16G real, 427M free, 33G swap in use, 15G swap free
+
+
+   PID USERNAME LWP PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+ 27611 wfang      8  30    0  197M  102M cpu/2   95.4H  6.21% sysmon.exe
+ 28438 jyu6       1  20    0 1832K 1360K sleep  365.0H  2.79% CreateUser.sh
+ 19401 cyuan1     1  10    0 1832K 1056K sleep  559.1H  2.78% CreateUser.sh
+ 29805 jyu6       1   0    0 2080K  912K sleep  433.7H  1.09% installEMS
+ 23375 jyu6       1   0    0 2080K  920K sleep  362.8H  1.09% installEMS
+  2502 jyu6       1   0    0 2080K  912K sleep  362.3H  1.08% installEMS
+  6812 jyu6       1   0    0 2080K  912K sleep  363.3H  1.08% installEMS
+  3076 jyu6       1   0    0 2080K  920K cpu/3  359.6H  1.07% installEMS
+ 11378 oracle    11  59    0 6278M 6258M sleep  458:11  0.06% oracle
+ 13739 oracle    11  59    0 6279M 6258M sleep  540:40  0.05% oracle
+  9075 jwang15    9  59    0 1005M  135M sleep   22.6H  0.04% sysmon.exe
+  6754 jwang15  111  59    0  748M  350M sleep   55:12  0.04% cm.exe
+ 22683 wfang     53  59    0  480M  378M sleep  383:23  0.04% cm.exe
+ 16912 bning    161  59    0  339M  241M sleep  320:32  0.03% cm.exe
+ 25245 jwu1     122  59    0  383M  250M sleep  863:23  0.03% cm.exe
+
+5.10
+load averages:  8.86,  9.09,  9.18    10:53:46
+429 processes: 426 sleeping, 3 on cpu
+
+Memory: 16G real, 427M free, 33G swap in use, 15G swap free
+
+
+   PID USERNAME LWP PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+ 27611 wfang      8  20    0  197M  102M cpu/6   95.4H  6.21% sysmon.exe
+ 28438 jyu6       1   0    0 1832K 1360K cpu/11 365.0H  2.79% CreateUser.sh
+ 19401 cyuan1     1   0    0 1832K 1056K sleep  559.1H  2.78% CreateUser.sh
+ 29805 jyu6       1   0    0 2080K  912K sleep  433.7H  1.09% installEMS
+ 23375 jyu6       1   0    0 2080K  920K sleep  362.8H  1.09% installEMS
+  2502 jyu6       1   0    0 2080K  912K sleep  362.3H  1.08% installEMS
+  6812 jyu6       1   0    0 2080K  912K sleep  363.3H  1.08% installEMS
+  3076 jyu6       1   0    0 2080K  920K sleep  359.6H  1.07% installEMS
+ 11378 oracle    11  59    0 6278M 6258M sleep  458:11  0.06% oracle
+ 13739 oracle    11  59    0 6279M 6258M sleep  540:40  0.05% oracle
+  9075 jwang15    9  59    0 1005M  135M sleep   22.6H  0.04% sysmon.exe
+  6754 jwang15  111  59    0  748M  350M sleep   55:12  0.04% cm.exe
+ 22683 wfang     53  59    0  480M  378M sleep  383:23  0.04% cm.exe
+ 16912 bning    161  59    0  339M  241M sleep  320:32  0.03% cm.exe
+ 25245 jwu1     122  59    0  383M  250M sleep  863:23  0.03% cm.exe
+
+5.10
+load averages:  8.86,  9.09,  9.18    10:53:46
+431 processes: 424 sleeping, 1 zombie, 6 on cpu
+
+Memory: 16G real, 427M free, 33G swap in use, 15G swap free
+
+
+   PID USERNAME LWP PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+ 27611 wfang      8  20    0  197M  102M cpu/6   95.4H  6.21% sysmon.exe
+ 28438 jyu6       1   0    0 1832K 1360K cpu/5  365.0H  2.79% CreateUser.sh
+ 19401 cyuan1     1   0    0 1832K 1056K sleep  559.1H  2.77% CreateUser.sh
+ 29805 jyu6       1   0    0 2080K  912K cpu/11 433.7H  1.09% installEMS
+ 23375 jyu6       1   0    0 2080K  920K sleep  362.8H  1.09% installEMS
+  2502 jyu6       1   0    0 2080K  912K cpu/7  362.3H  1.08% installEMS
+  6812 jyu6       1   0    0 2080K  912K sleep  363.3H  1.08% installEMS
+  3076 jyu6       1   0    0 2080K  920K sleep  359.6H  1.07% installEMS
+ 11378 oracle    11  59    0 6278M 6258M sleep  458:11  0.06% oracle
+ 13739 oracle    11  59    0 6279M 6258M sleep  540:40  0.05% oracle
+  9075 jwang15    9  59    0 1005M  135M sleep   22.6H  0.04% sysmon.exe
+  6754 jwang15  111  59    0  748M  350M sleep   55:12  0.04% cm.exe
+ 22683 wfang     53  59    0  480M  378M sleep  383:23  0.04% cm.exe
+ 16912 bning    161  59    0  339M  241M sleep  320:32  0.03% cm.exe
+ 25245 jwu1     122  59    0  383M  250M sleep  863:23  0.03% cm.exe
+
+5.10
+load averages:  8.86,  9.09,  9.18    10:53:46
+430 processes: 426 sleeping, 4 on cpu
+
+Memory: 16G real, 427M free, 33G swap in use, 15G swap free
+
+
+   PID USERNAME LWP PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+ 27611 wfang      8  10    0  197M  102M cpu/6   95.4H  6.21% sysmon.exe
+ 28438 jyu6       1   0    0 1832K 1360K cpu/3  365.0H  2.79% CreateUser.sh
+ 19401 cyuan1     1   0    0 1832K 1056K sleep  559.1H  2.77% CreateUser.sh
+ 29805 jyu6       1   0    0 2080K  912K sleep  433.7H  1.09% installEMS
+ 23375 jyu6       1   0    0 2080K  920K sleep  362.8H  1.09% installEMS
+  2502 jyu6       1   0    0 2080K  912K sleep  362.3H  1.08% installEMS
+  6812 jyu6       1   0    0 2080K  912K sleep  363.3H  1.08% installEMS
+  3076 jyu6       1   0    0 2080K  920K sleep  359.6H  1.07% installEMS
+ 11378 oracle    11  59    0 6278M 6258M sleep  458:11  0.06% oracle
+ 13739 oracle    11  59    0 6279M 6258M sleep  540:40  0.05% oracle
+  9075 jwang15    9  59    0 1005M  135M sleep   22.6H  0.04% sysmon.exe
+  6754 jwang15  111  59    0  748M  350M sleep   55:12  0.04% cm.exe
+ 22683 wfang     53  59    0  480M  378M sleep  383:23  0.04% cm.exe
+ 16912 bning    161  59    0  339M  241M sleep  320:32  0.03% cm.exe
+ 25245 jwu1     122  59    0  383M  250M sleep  863:23  0.03% cm.exe
+
+5.10
+load averages:  8.86,  9.09,  9.18    10:53:47
+429 processes: 425 sleeping, 4 on cpu
+
+Memory: 16G real, 427M free, 33G swap in use, 15G swap free
+
+
+   PID USERNAME LWP PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+ 27611 wfang      8  10    0  197M  102M cpu/6   95.4H  6.21% sysmon.exe
+ 28438 jyu6       1   0    0 1832K 1360K sleep  365.0H  2.79% CreateUser.sh
+ 19401 cyuan1     1   0    0 1832K 1056K cpu/5  559.1H  2.77% CreateUser.sh
+ 29805 jyu6       1   0    0 2080K  912K sleep  433.7H  1.09% installEMS
+ 23375 jyu6       1   0    0 2080K  920K sleep  362.8H  1.09% installEMS
+  2502 jyu6       1   0    0 2080K  912K sleep  362.3H  1.08% installEMS
+  6812 jyu6       1   0    0 2080K  912K sleep  363.3H  1.08% installEMS
+  3076 jyu6       1   0    0 2080K  912K cpu/2  359.6H  1.07% installEMS
+ 11378 oracle    11  59    0 6278M 6258M sleep  458:11  0.06% oracle
+ 13739 oracle    11  59    0 6279M 6258M sleep  540:40  0.05% oracle
+  9075 jwang15    9  59    0 1005M  135M sleep   22.6H  0.04% sysmon.exe
+  6754 jwang15  111  59    0  748M  350M sleep   55:12  0.04% cm.exe
+ 22683 wfang     53  59    0  480M  378M sleep  383:23  0.04% cm.exe
+ 16912 bning    161  59    0  339M  241M sleep  320:32  0.03% cm.exe
+ 25245 jwu1     122  59    0  383M  250M sleep  863:23  0.03% cm.exe
+
+5.10
+load averages:  8.86,  9.09,  9.18    10:53:47
+429 processes: 426 sleeping, 3 on cpu
+
+Memory: 16G real, 427M free, 33G swap in use, 15G swap free
+
+
+   PID USERNAME LWP PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+ 27611 wfang      8   0    0  197M  102M cpu/0   95.4H  6.21% sysmon.exe
+ 28438 jyu6       1   0    0 1832K 1360K sleep  365.0H  2.79% CreateUser.sh
+ 19401 cyuan1     1   0    0 1832K 1056K cpu/15 559.1H  2.77% CreateUser.sh
+ 29805 jyu6       1   0    0 2080K  912K sleep  433.7H  1.09% installEMS
+ 23375 jyu6       1   0    0 2080K  920K sleep  362.8H  1.09% installEMS
+  2502 jyu6       1   0    0 2080K  912K sleep  362.3H  1.08% installEMS
+  6812 jyu6       1   0    0 2080K  912K sleep  363.3H  1.08% installEMS
+  3076 jyu6       1   0    0 2080K  920K sleep  359.6H  1.07% installEMS
+ 11378 oracle    11  59    0 6278M 6258M sleep  458:11  0.06% oracle
+ 13739 oracle    11  59    0 6279M 6258M sleep  540:40  0.05% oracle
+  9075 jwang15    9  59    0 1005M  135M sleep   22.6H  0.04% sysmon.exe
+  6754 jwang15  111  59    0  748M  350M sleep   55:12  0.04% cm.exe
+ 22683 wfang     53  59    0  480M  378M sleep  383:23  0.04% cm.exe
+ 16912 bning    161  59    0  339M  241M sleep  320:32  0.03% cm.exe
+ 25245 jwu1     122  59    0  383M  250M sleep  863:23  0.03% cm.exe
+
+5.10
+load averages:  8.86,  9.09,  9.18    10:53:47
+429 processes: 425 sleeping, 4 on cpu
+
+Memory: 16G real, 426M free, 33G swap in use, 15G swap free
+
+
+   PID USERNAME LWP PRI NICE  SIZE   RES STATE    TIME    CPU COMMAND
+ 27611 wfang      8   0    0  197M  102M cpu/0   95.4H  6.21% sysmon.exe
+ 28438 jyu6       1   0    0 1832K 1360K cpu/5  365.0H  2.79% CreateUser.sh
+ 19401 cyuan1     1   0    0 1832K 1056K cpu/13 559.1H  2.77% CreateUser.sh
+ 29805 jyu6       1   0    0 2080K  912K sleep  433.7H  1.09% installEMS
+ 23375 jyu6       1   0    0 2080K  920K sleep  362.8H  1.09% installEMS
+  2502 jyu6       1   0    0 2080K  912K sleep  362.3H  1.08% installEMS
+  6812 jyu6       1   0    0 2080K  912K sleep  363.3H  1.08% installEMS
+  3076 jyu6       1   0    0 2080K  920K sleep  359.6H  1.07% installEMS
+ 11378 oracle    11  59    0 6278M 6258M sleep  458:11  0.06% oracle
+ 13739 oracle    11  59    0 6279M 6258M sleep  540:40  0.05% oracle
+  9075 jwang15    9  59    0 1005M  135M sleep   22.6H  0.04% sysmon.exe
+  6754 jwang15  111  59    0  748M  350M sleep   55:12  0.04% cm.exe
+ 22683 wfang     53  59    0  480M  378M sleep  383:23  0.04% cm.exe
+ 16912 bning    161  59    0  339M  241M sleep  320:32  0.03% cm.exe
+ 25245 jwu1     122  59    0  383M  250M sleep  863:23  0.03% cm.exe
+
+5.10

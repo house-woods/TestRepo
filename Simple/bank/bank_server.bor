@@ -1,0 +1,86 @@
+# Makefile for building the server exe with Borland C++ Make
+
+NAME = server
+
+NO_FULL_PATH=1
+
+OBJFILES = \
+	$(OBJDIR)\Simple_util.$(OBJ_EXT) \
+	$(OBJDIR)\Account_i.$(OBJ_EXT) \
+	$(OBJDIR)\AccountManager_i.$(OBJ_EXT) \
+	$(OBJDIR)\BankC.$(OBJ_EXT) \
+	$(OBJDIR)\BankS.$(OBJ_EXT) \
+	$(OBJDIR)\server.$(OBJ_EXT)
+
+LFLAGS = \
+        -L"." \
+        -j"."  \
+        -L"..\..\..\..\lib" \
+        -j"..\..\..\..\lib" 
+
+LIBFILES = \
+	ACE$(LIB_DECORATOR).lib \
+	TAO$(LIB_DECORATOR).lib \
+	TAO_AnyTypeCode$(LIB_DECORATOR).lib \
+	TAO_CosNaming$(LIB_DECORATOR).lib \
+	TAO_IORTable$(LIB_DECORATOR).lib \
+	TAO_PortableServer$(LIB_DECORATOR).lib \
+	TAO_CodecFactory$(LIB_DECORATOR).lib \
+	TAO_PI$(LIB_DECORATOR).lib \
+	TAO_Utils$(LIB_DECORATOR).lib \
+	$(DUMMY_VALUE_NOT_ENDING_IN_BACKSLASH)
+
+!ifdef STATIC
+LIB_FLAGS = \
+        -DACE_AS_STATIC_LIBS \
+        -DTAO_AS_STATIC_LIBS
+!else
+!endif
+
+CFLAGS = \
+	-I"..\..\..\.." \
+	-I"..\..\.." \
+	-I"..\..\..\orbsvcs" \
+	$(LIB_FLAGS) \
+	$(DLL_FLAGS)
+
+CPPDIR = .;..
+CDIR   = .;..
+
+INCDIR_NAME = examples\Simple\bank
+
+#
+# idl_files rules
+#
+
+
+#
+# pkgconfig_files rules
+#
+
+
+#
+# pidl_files rules
+#
+
+
+#
+# Override defaults in outputdir.bor
+#
+INCLUDES_INSTALL=1
+
+BASE_BINDIR = .
+
+!include <$(ACE_ROOT)\include\makeinclude\build_exe.bor>
+
+includes_install: $(INCLUDES)
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\.. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\..
+	-&copy /Y ..\Simple_util.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\..\Simple_util.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y Account_i.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\Account_i.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y AccountManager_i.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\AccountManager_i.h 1> NUL
+
+realclean:
+        @-rem
+

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+
+/// Simulator will add the semi-colon - do not add
+
+<CONFIGURATION>
+   <AID>
+     SBOADM
+   </AID>
+   
+   <ACT-USER>
+   /* NOTICE: This system is strictly for business use by authorized personnel.Unauthorized access or use of this system may lead to prosecution */
+   </ACT-USER>
+   
+
+   
+   <RTRV-ALM-ALL>
+ 
+    </RTRV-ALM-ALL>
+   
+   <RTRV-NET>
+
+   </RTRV-NET>
+
+   <RTRV-TOD>
+   "2003,10,24,21,48,11.636,UTC,,,IS-NR-FREERUN"
+   </RTRV-TOD>
+   
+   <RTRV-NE>
+
+   </RTRV-NE>
+      
+   <RTRV-OMS>
+
+   </RTRV-OMS>
+   
+   <RTRV-OTS>
+
+   </RTRV-OTS>
+   
+   <RTRV-EQPT>
+
+   </RTRV-EQPT>  
+    
+   <RTRV-ARC-ALL>
+
+   </RTRV-ARC-ALL>
+   
+   <RTRV-OCH>
+
+   </RTRV-OCH>
+   
+   <RTRV-OSC>
+ 
+   </RTRV-OSC>
+   
+   <RTRV-ATTN-OCH>
+
+   </RTRV-ATTN-OCH>
+   
+   <RTRV-GOPT>
+
+   </RTRV-GOPT>
+   
+   <RTRV-TGBEP>
+
+   </RTRV-TGBEP>
+   
+   <RTRV-USER-SECU>
+
+   </RTRV-USER-SECU>
+   
+   <RTRV-CRS-OCH>
+
+   </RTV-CRS-OCH>
+   
+   <RTRV-PMDAY>
+   "2"
+   </RTRV-PMDAY>
+   
+  
+   <RTRV-PMMODE-EQPT>
+
+   </RTV-PMMODE-EQPT>
+   
+   <RTRV-PMMODE-GOPT>
+
+   </RTRV-PMMODE-GOPT>
+   
+   <RTRV-PMMODE-OCH>
+
+   </RTRV-PMMODE-OCH>
+   
+   <RTRV-PMMODE-TGBEP>
+
+   </RTRV-PMMODE-TGBEP>
+   
+   <RTRV-TCAMODE-EQPT>
+
+   
+   </RTRV-TCAMODE-EQPT>
+   
+   <RTRV-TCAMODE-GOPT>
+
+   
+   </RTRV-TCAMODE-GOPT>
+   
+   <RTRV-TCAMODE-OCH>
+
+   
+   </RTRV-TCAMODE-OCH>
+   
+   <DELAY>
+   0
+   </DELAY>
+
+</CONFIGURATION>

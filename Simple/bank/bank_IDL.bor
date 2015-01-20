@@ -1,0 +1,79 @@
+# Makefile for building the  with Borland C++ Make
+
+
+NO_FULL_PATH=1
+
+LFLAGS = \
+        -L"." \
+        -j"."  \
+        -L"..\..\..\..\lib" \
+        -j"..\..\..\..\lib" 
+
+LIBFILES = \
+	ACE$(LIB_DECORATOR).lib \
+	TAO$(LIB_DECORATOR).lib \
+	TAO_AnyTypeCode$(LIB_DECORATOR).lib \
+	$(DUMMY_VALUE_NOT_ENDING_IN_BACKSLASH)
+
+!ifdef STATIC
+LIB_FLAGS = \
+        -DACE_AS_STATIC_LIBS \
+        -DTAO_AS_STATIC_LIBS
+!else
+!endif
+
+CFLAGS = \
+	-I"..\..\..\.." \
+	-I"..\..\.." \
+	$(LIB_FLAGS) \
+	$(DLL_FLAGS)
+
+INCDIR_NAME = examples\Simple\bank
+
+#
+# idl_files rules
+#
+
+
+idl_files_1= BankC.cpp BankC.h BankC.inl BankS.cpp BankS.h BankS.inl
+$(idl_files_1): Bank.idl
+	..\..\..\..\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I..\..\.. Bank.idl 
+
+all: $(idl_files_1)
+
+customclean_idl_files_1:
+	@del $(idl_files_1) 2>nul
+
+clean: customclean_idl_files_1
+
+realclean: customclean_idl_files_1
+
+
+#
+# pkgconfig_files rules
+#
+
+
+#
+# pidl_files rules
+#
+
+
+#
+# Override defaults in outputdir.bor
+#
+INCLUDES_INSTALL=1
+INSTALL_TYPES = includes
+
+!include <$(ACE_ROOT)\include\makeinclude\install.bor>
+
+all:
+	@-rem
+
+includes_install: $(INCLUDES)
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y Bank.idl $(INSTALL_DIR)\include\$(INCDIR_NAME)\Bank.idl 1> NUL
+
+realclean:
+        @-rem
+

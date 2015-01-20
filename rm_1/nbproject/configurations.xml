@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="35">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="rm" displayName="rm" projectFiles="true">
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/ActionPerformanceReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/ActionPerformanceReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/AlarmReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/AlarmReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/BaseReportQueryObject.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/BaseReportQueryObject.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/CallReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/CallReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/CrossConnectionReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/CrossConnectionReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/DWDMLinkReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/DWDMLinkReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/EMSDiagnosticsReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/EMSDiagnosticsReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/EquipmentAvailReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/EquipmentAvailReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/EquipmentReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/EquipmentReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/EVCReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/EVCReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/FacilityReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/FacilityReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/FWReportDef.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/FWReportDef.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/HistoricalPMReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/HistoricalPMReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/main.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/NEAssocReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/NEAssocReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/NEBackupReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/NEBackupReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/NELogReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/NELogReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/NEReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/NEReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/NESoftwareReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/NESoftwareReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/OutageAlarm.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/OutageAlarm.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/OutageReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/OutageReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/PacketFacilityReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/PacketFacilityReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/RenderProcessControl.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/RenderProcessControl.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/ReportQuery_i.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/ReportQuery_i.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/ReportQueryObject.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/ReportQueryObject.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/ReportQueryObjectFactory.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/ReportQueryObjectFactory.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/RMDbMgr.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/RMDbMgr.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/RMServer.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/RMServer.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/RMUtility.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/RMUtility.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/RouteControllerReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/RouteControllerReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/ScheduledTimerHandler.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/ScheduledTimerHandler.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/SMATReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/SMATReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/TopologicalLinkQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/TopologicalLinkQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/VCGReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/VCGReportQuery.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/WavelengthUtilReportQuery.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/WavelengthUtilReportQuery.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>/vobs/EMS_OTS/Framework/servers/rm/Makefile</itemPath>
+      <itemPath>rm_1-Makefile.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>rm_1-Makefile.mk</projectmakefile>
+  <defaultConf>0</defaultConf>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>Sun12</compilerSet>
+        <cRequired>true</cRequired>
+        <cppRequired>true</cppRequired>
+        <fortranRequired>false</fortranRequired>
+        <platform>0</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>/vobs/EMS_OTS/Framework/servers/rm</buildCommandWorkingDir>
+          <buildCommand>make -f Makefile</buildCommand>
+          <cleanCommand>make -f Makefile clean</cleanCommand>
+          <executablePath>/vobs/EMS_OTS/Framework/servers/rm/rm.exe</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/ActionPerformanceReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/ActionPerformanceReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/AlarmReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/AlarmReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/BaseReportQueryObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/BaseReportQueryObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/CallReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/CallReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/CrossConnectionReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/CrossConnectionReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/DWDMLinkReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/DWDMLinkReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/EMSDiagnosticsReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/EMSDiagnosticsReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/EVCReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/EVCReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/EquipmentAvailReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/EquipmentAvailReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/EquipmentReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/EquipmentReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/FWReportDef.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/FWReportDef.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/FacilityReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/FacilityReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/HistoricalPMReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/HistoricalPMReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/NEAssocReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/NEAssocReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/NEBackupReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/NEBackupReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/NELogReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/NELogReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/NEReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/NEReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/NESoftwareReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/NESoftwareReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/OutageAlarm.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/OutageAlarm.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/OutageReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/OutageReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/PacketFacilityReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/PacketFacilityReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/RMDbMgr.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/RMDbMgr.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/RMServer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/RMServer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/RMUtility.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/RMUtility.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/RenderProcessControl.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/RenderProcessControl.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/ReportQueryObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/ReportQueryObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/ReportQueryObjectFactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/ReportQueryObjectFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/ReportQuery_i.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/ReportQuery_i.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/RouteControllerReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/RouteControllerReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/SMATReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/SMATReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/ScheduledTimerHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/ScheduledTimerHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/TopologicalLinkQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/TopologicalLinkQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/VCGReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/VCGReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/WavelengthUtilReportQuery.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/WavelengthUtilReportQuery.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/rm/main.cpp">
+        <itemTool>1</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

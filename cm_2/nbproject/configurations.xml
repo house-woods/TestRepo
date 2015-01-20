@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="35">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="cm" displayName="cm" projectFiles="true">
+      <logicalFolder name="emsObjects" displayName="emsObjects" projectFiles="true">
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/AutodiscoveryCache.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/AutodiscoveryCache.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPE7305ManagedElement.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPE7305ManagedElement.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEEmsObject.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEEmsObject.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEEmsObjectFactory.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEEmsObjectFactory.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEMACPort.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEMACPort.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEManagedElement.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEManagedElement.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEModule.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEModule.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPESNMPTargetParams.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPESNMPTargetParams.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCERT.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCERT.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCP.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCP.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCPCallsConns.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCPCallsConns.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCPNodesLinks.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCPNodesLinks.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCrossConnection.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCrossConnection.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCrossConnectionHelper.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCrossConnectionHelper.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDatabase.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDatabase.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDCM.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDCM.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDHCP.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDHCP.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEquipment.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEquipment.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEthernet.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEthernet.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEVC.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEVC.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacCrossConnection.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacCrossConnection.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacility.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacility.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacilityProtectionGroup.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacilityProtectionGroup.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFibreConnection.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFibreConnection.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFTP.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFTP.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLAG.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLAG.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLapd.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLapd.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLapdProfile.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLapdProfile.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsManagedElement.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsManagedElement.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsNP.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsNP.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsNTP.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsNTP.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsOpticalChannel.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsOpticalChannel.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPathCrossConnection.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPathCrossConnection.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPathLevel.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPathLevel.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTDS.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTDS.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTRPR.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTRPR.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTVS.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTVS.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPPP.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPPP.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPPPProfile.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPPPProfile.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPSSMP.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPSSMP.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPSSSUBGRP.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPSSSUBGRP.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsRemoteNeMap.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsRemoteNeMap.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsRouter.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsRouter.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSoftware.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSoftware.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSwitchDomain.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSwitchDomain.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSYNCentity.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSYNCentity.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsTarp.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsTarp.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsTIDMap.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsTIDMap.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsVCG.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsVCG.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsVCGCrossConnection.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsVCGCrossConnection.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OnestepSWStateMachine.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OnestepSWStateMachine.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsEmsObject.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsEmsObject.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsEmsObjectFactory.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsEmsObjectFactory.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsNESecurityObject.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsNESecurityObject.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsPropertyObject.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsPropertyObject.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/RDbInserter.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/RDbInserter.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="main" displayName="main" projectFiles="true">
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/ActionTracker.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/ActionTracker.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/CPEProductDecisionMaker.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/CPEProductDecisionMaker.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/main.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsAttrRegisterAnyPointer.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsCmEventReceiver.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsCmEventReceiver.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSCmServer.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSCmServer.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSConfigNames.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSConfigNames.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSDefaultName.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSDefaultName.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsNameResolver.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsNameResolver.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSNetworkElement.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSNetworkElement.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSProductDecisionMaker.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSProductDecisionMaker.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSSRVDEF.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSSRVDEF.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsTL1CmdResolver.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsTL1CmdResolver.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSTL1DEF.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSTL1DEF.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsUtility.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsUtility.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PacketProductDecisionMaker.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PacketProductDecisionMaker.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSNameResolver.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSNameResolver.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSSNMPDEF.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSSNMPDEF.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSUtility.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSUtility.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/version.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="ProvRules" displayName="ProvRules" projectFiles="true">
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionMethodMapper.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionMethodMapper.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRules.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRules.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFactory.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFactory.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP11.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP11.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP20.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP20.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP21.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP21.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSAbstractActionRules.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSAbstractActionRules.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSAbstractProvisionRules.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSAbstractProvisionRules.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP20.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP20.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP21.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP21.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP22.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP22.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP31.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP31.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP32.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP32.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP33.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP33.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP40.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP40.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP41.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP41.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP42.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP42.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP43.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP43.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP50.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP50.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP60.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP60.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSCircuitRules.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSCircuitRules.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSDataConverter.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSDataConverter.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFactory.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFactory.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP20.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP20.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP21.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP21.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP22.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP22.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvMethodMap.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvMethodMap.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionMethodMapper.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionMethodMapper.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRules.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRules.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFactory.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFactory.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP42Agent.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP42Agent.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP50Agent.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP50Agent.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP60Agent.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP60Agent.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="OtsTypes" displayName="OtsTypes" projectFiles="true">
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AlarmProfileListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AlarmProfileListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AlarmProfileType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AlarmProfileType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AvailOptChannelListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AvailOptChannelListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AvailOptChannelType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AvailOptChannelType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/BaselinePowerRequestListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/BaselinePowerRequestType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/BaselinePowerRequestType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/CrossConnectDetailListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/CrossConnectDetailListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/CrossConnectDetailType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/CrossConnectDetailType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DeprovisionConnectionListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DeprovisionConnectionListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DeprovisionConnectionType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DeprovisionConnectionType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DisplayNameMoiPairType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DisplayNameMoiPairType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DwdmLinkListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DwdmLinkListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DwdmLinkType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DwdmLinkType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/EnvAttrListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/EnvAttrListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/EnvAttrType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/EnvAttrType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExpressPortListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExpressPortListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExpressPortType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExpressPortType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExtContListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExtContListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExtContType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExtContType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/FibreEntityType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/FibreEntityType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectDetailListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectDetailListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectDetailType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectDetailType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/LinkDetailListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/LinkDetailListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/LinkDetailType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/LinkDetailType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ModuleDetailsListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ModuleDetailsListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ModuleDetailsType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ModuleDetailsType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/MOINameListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/MOINameListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/NtpPeerListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/NtpPeerListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/NtpPeerType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/NtpPeerType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/OpticalPowerListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/OpticalPowerType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/OpticalPowerType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PMProfileListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PMProfileListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PMProfileType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PMProfileType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortDetailListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortDetailListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortDetailType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortDetailType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortEntityListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortEntityListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortEntityType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortEntityType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PrbsMeasurementListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PrbsMeasurementListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PrbsMeasurementType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PrbsMeasurementType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ProvisionPMListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ProvisionPMListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ProvisionPMType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ProvisionPMType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SchedulePMListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SchedulePMListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SchedulePMType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SchedulePMType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SignalRateListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SignalRateListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SignalRateType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SignalRateType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SlotModuleListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SlotModuleListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SlotModuleType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SlotModuleType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ThreeStrStructListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ThreeStrStructListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ThreeStrStructType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ThreeStrStructType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1AlarmListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1AlarmListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1AlarmType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1AlarmType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1ARCListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1ARCListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1ARCType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1ARCType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ViewPMListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ViewPMListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ViewPMType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ViewPMType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/WavelengthDetailsListType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/WavelengthDetailsListType.cpp</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/WavelengthDetailsType.h</itemPath>
+        <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/WavelengthDetailsType.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>cm_2-Makefile.mk</itemPath>
+      <itemPath>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>cm_2-Makefile.mk</projectmakefile>
+  <defaultConf>0</defaultConf>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>Sun12</compilerSet>
+        <cRequired>true</cRequired>
+        <cppRequired>true</cppRequired>
+        <fortranRequired>false</fortranRequired>
+        <platform>0</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>/view/bwang1_ems_view/vobs/EMS_OTS/server/cm</buildCommandWorkingDir>
+          <buildCommand>make -f Makefile</buildCommand>
+          <cleanCommand>make -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AlarmProfileListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AlarmProfileListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AlarmProfileType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AlarmProfileType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AvailOptChannelListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AvailOptChannelListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AvailOptChannelType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/AvailOptChannelType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/BaselinePowerRequestListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/BaselinePowerRequestType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/BaselinePowerRequestType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/CrossConnectDetailListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/CrossConnectDetailListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/CrossConnectDetailType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/CrossConnectDetailType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DeprovisionConnectionListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DeprovisionConnectionListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DeprovisionConnectionType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DeprovisionConnectionType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DisplayNameMoiPairType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DisplayNameMoiPairType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DwdmLinkListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DwdmLinkListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DwdmLinkType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/DwdmLinkType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/EnvAttrListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/EnvAttrListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/EnvAttrType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/EnvAttrType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExpressPortListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExpressPortListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExpressPortType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExpressPortType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExtContListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExtContListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExtContType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ExtContType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/FibreEntityType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/FibreEntityType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectDetailListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectDetailListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectDetailType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectDetailType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/GroupCrossConnectType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/LinkDetailListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/LinkDetailListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/LinkDetailType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/LinkDetailType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/MOINameListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/MOINameListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ModuleDetailsListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ModuleDetailsListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ModuleDetailsType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ModuleDetailsType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/NtpPeerListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/NtpPeerListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/NtpPeerType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/NtpPeerType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/OpticalPowerListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/OpticalPowerType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/OpticalPowerType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PMProfileListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PMProfileListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PMProfileType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PMProfileType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortDetailListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortDetailListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortDetailType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortDetailType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortEntityListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortEntityListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortEntityType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PortEntityType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PrbsMeasurementListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PrbsMeasurementListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PrbsMeasurementType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/PrbsMeasurementType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ProvisionPMListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ProvisionPMListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ProvisionPMType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ProvisionPMType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SchedulePMListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SchedulePMListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SchedulePMType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SchedulePMType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SignalRateListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SignalRateListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SignalRateType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SignalRateType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SlotModuleListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SlotModuleListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SlotModuleType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/SlotModuleType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1ARCListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1ARCListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1ARCType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1ARCType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1AlarmListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1AlarmListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1AlarmType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/TL1AlarmType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ThreeStrStructListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ThreeStrStructListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ThreeStrStructType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ThreeStrStructType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ViewPMListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ViewPMListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ViewPMType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/ViewPMType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/WavelengthDetailsListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/WavelengthDetailsListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/WavelengthDetailsType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/OtsTypes/WavelengthDetailsType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionMethodMapper.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionMethodMapper.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRules.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRules.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP11.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP11.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP20.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP20.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP21.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFP21.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/CPEActionRulesFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSAbstractActionRules.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSAbstractActionRules.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSAbstractProvisionRules.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSAbstractProvisionRules.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP20.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP20.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP21.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP21.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP22.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP22.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP31.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP31.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP32.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP32.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP33.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP33.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP40.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP40.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP41.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP41.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP42.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP42.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP43.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP43.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP50.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP50.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP60.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSActionRulesFP60.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSCircuitRules.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSCircuitRules.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSDataConverter.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSDataConverter.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvMethodMap.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvMethodMap.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP20.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP20.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP21.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP21.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP22.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP22.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionMethodMapper.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionMethodMapper.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRules.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRules.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP42Agent.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP42Agent.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP50Agent.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP50Agent.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP60Agent.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFP60Agent.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/ProvRules/PSSActionRulesFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/AutodiscoveryCache.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/AutodiscoveryCache.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPE7305ManagedElement.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPE7305ManagedElement.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEEmsObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEEmsObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEEmsObjectFactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEEmsObjectFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEMACPort.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEMACPort.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEManagedElement.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEManagedElement.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEModule.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPEModule.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPESNMPTargetParams.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/CPESNMPTargetParams.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCERT.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCERT.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCP.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCP.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCPCallsConns.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCPCallsConns.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCPNodesLinks.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCPNodesLinks.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCrossConnection.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCrossConnection.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCrossConnectionHelper.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsCrossConnectionHelper.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDCM.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDCM.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDHCP.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDHCP.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDatabase.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsDatabase.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEVC.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEVC.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEquipment.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEquipment.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEthernet.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsEthernet.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFTP.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFTP.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacCrossConnection.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacCrossConnection.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacility.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacility.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacilityProtectionGroup.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFacilityProtectionGroup.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFibreConnection.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsFibreConnection.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLAG.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLAG.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLapd.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLapd.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLapdProfile.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsLapdProfile.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsManagedElement.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsManagedElement.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsNP.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsNP.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsNTP.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsNTP.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsOpticalChannel.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsOpticalChannel.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTDS.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTDS.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTRPR.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTRPR.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTVS.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPKTVS.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPPP.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPPP.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPPPProfile.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPPPProfile.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPSSMP.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPSSMP.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPSSSUBGRP.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPSSSUBGRP.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPathCrossConnection.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPathCrossConnection.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPathLevel.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsPathLevel.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsRemoteNeMap.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsRemoteNeMap.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsRouter.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsRouter.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSYNCentity.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSYNCentity.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSoftware.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSoftware.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSwitchDomain.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsSwitchDomain.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsTIDMap.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsTIDMap.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsTarp.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsTarp.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsVCG.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsVCG.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsVCGCrossConnection.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/EmsVCGCrossConnection.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OnestepSWStateMachine.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OnestepSWStateMachine.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsEmsObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsEmsObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsEmsObjectFactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsEmsObjectFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsNESecurityObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsNESecurityObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsPropertyObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/OtsPropertyObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/RDbInserter.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/emsObjects/RDbInserter.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/ActionTracker.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/ActionTracker.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/CPEProductDecisionMaker.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/CPEProductDecisionMaker.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSCmServer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSCmServer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSConfigNames.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSConfigNames.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSDefaultName.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSDefaultName.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSNetworkElement.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSNetworkElement.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSProductDecisionMaker.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSProductDecisionMaker.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSSRVDEF.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSSRVDEF.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSTL1DEF.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OTSTL1DEF.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsAttrRegisterAnyPointer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsCmEventReceiver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsCmEventReceiver.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsNameResolver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsNameResolver.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsTL1CmdResolver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsTL1CmdResolver.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsUtility.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/OtsUtility.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSNameResolver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSNameResolver.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSSNMPDEF.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSSNMPDEF.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSUtility.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PSSUtility.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PacketProductDecisionMaker.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/PacketProductDecisionMaker.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/main.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_ems_view/vobs/EMS_OTS/server/cm/main/version.h">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

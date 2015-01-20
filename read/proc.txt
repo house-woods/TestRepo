@@ -1,0 +1,12 @@
+13611 /bin/sh /home/bwang1/ems/Tellabs_7190_EMS/EMS/bin/hm.sh
+  13732 /home/bwang1/ems/Tellabs_7190_EMS/EMS/bin/hm.exe -f
+    14328 /home/bwang1/ems/Tellabs_7190_EMS/ThirdParty/TAO/bin/Naming_Service -ORBSvcConf
+    15706 /home/bwang1/ems/Tellabs_7190_EMS/EMS/bin/sysmon.exe
+    19155 /home/bwang1/ems/Tellabs_7190_EMS/ThirdParty/TAO/bin/Event_Service -n EventChan
+    20394 /home/bwang1/ems/Tellabs_7190_EMS/EMS/bin/sm.exe SysMon SecurityMgr -ORBinitRef
+    21665 /home/bwang1/ems/Tellabs_7190_EMS/EMS/bin/rm.exe SysMon RptMgr -ORBinitRef Name
+    22295 /home/bwang1/ems/Tellabs_7190_EMS/EMS/bin/proxyserver.exe SysMon ProxyServer -O
+    22903 /home/bwang1/ems/Tellabs_7190_EMS/EMS/bin/fm.exe SysMon FMServer_SW -ORBinitRef
+    23704 /home/bwang1/ems/Tellabs_7190_EMS/EMS/bin/cm.exe SysMon CMServer_32 -ORBinitRef
+    17276 /home/bwang1/ems/Tellabs_7190_EMS/EMS/bin/nm.exe SysMon NodeMgr -ORBinitRef Nam
+

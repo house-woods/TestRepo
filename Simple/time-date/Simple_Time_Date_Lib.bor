@@ -1,0 +1,102 @@
+# Makefile for building the Time_Date library with Borland C++ Make
+
+NAME = Time_Date
+
+NO_FULL_PATH=1
+
+OBJFILES = \
+	$(OBJDIR)\Time_Date.$(OBJ_EXT) \
+	$(OBJDIR)\Time_Date_i.$(OBJ_EXT) \
+	$(OBJDIR)\Time_DateC.$(OBJ_EXT) \
+	$(OBJDIR)\Time_DateS.$(OBJ_EXT)
+
+LFLAGS = \
+        -L"." \
+        -j"."  \
+        -L"..\..\..\..\lib" \
+        -j"..\..\..\..\lib" 
+
+LIBFILES = \
+	ACE$(LIB_DECORATOR).lib \
+	TAO$(LIB_DECORATOR).lib \
+	TAO_AnyTypeCode$(LIB_DECORATOR).lib \
+	TAO_PortableServer$(LIB_DECORATOR).lib \
+	$(DUMMY_VALUE_NOT_ENDING_IN_BACKSLASH)
+
+!ifdef STATIC
+LIB_FLAGS = \
+        -DACE_AS_STATIC_LIBS \
+        -DTAO_AS_STATIC_LIBS
+!else
+DLL_FLAGS = \
+        -DACE_BUILD_SVC_DLL \
+        -DAlt_Resource_Factory_BUILD_DLL
+!endif
+
+CFLAGS = \
+	-I"..\..\..\.." \
+	-I"..\..\.." \
+	$(LIB_FLAGS) \
+	$(DLL_FLAGS)
+
+CPPDIR = .
+CDIR   = .
+
+INCDIR_NAME = examples\Simple\time-date
+
+#
+# pkgconfig_files rules
+#
+
+
+#
+# pidl_files rules
+#
+
+
+#
+# idl_files rules
+#
+
+
+idl_files_1= Time_DateC.cpp Time_DateC.h Time_DateC.inl Time_DateS.cpp Time_DateS.h Time_DateS.inl
+$(idl_files_1): Time_Date.idl
+	..\..\..\..\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I..\..\.. -Sa -St -Wb,export_macro=Alt_Resource_Factory_Export -Wb,export_include=Alt_Resource_Factory.h Time_Date.idl 
+
+all: $(idl_files_1)
+
+customclean_idl_files_1:
+	@del $(idl_files_1) 2>nul
+
+clean: customclean_idl_files_1
+
+realclean: customclean_idl_files_1
+
+
+#
+# Override defaults in outputdir.bor
+#
+INCLUDES_INSTALL=1
+BINDIR = .
+
+!include <$(ACE_ROOT)\include\makeinclude\build_library.bor>
+
+includes_install: $(INCLUDES)
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y Alt_Resource_Factory.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\Alt_Resource_Factory.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y Time_Date_i.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\Time_Date_i.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y Time_DateC.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\Time_DateC.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y Time_DateS.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\Time_DateS.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y Time_DateC.inl $(INSTALL_DIR)\include\$(INCDIR_NAME)\Time_DateC.inl 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y Time_DateS.inl $(INSTALL_DIR)\include\$(INCDIR_NAME)\Time_DateS.inl 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y Time_Date.idl $(INSTALL_DIR)\include\$(INCDIR_NAME)\Time_Date.idl 1> NUL
+
+realclean:
+        @-rem
+

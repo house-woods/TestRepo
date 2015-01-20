@@ -1,0 +1,10 @@
+Fri May 20 18:16:12 CST 2011
+   PID USERNAME  SIZE   RSS STATE  PRI NICE      TIME  CPU PROCESS/NLWP       
+ 20363 bwang1   3488K 2872K cpu3    39    0   0:00:00 0.1% prstat/1
+ 14223 bwang1     22M 9504K sleep   59    0   7:52:16 0.1% Xvnc/1
+ 14645 bwang1   3432K 2456K sleep   49    0   0:00:02 0.0% bash/1
+ 14527 bwang1   9240K 1752K sleep   59    0   1:52:30 0.0% sdtperfmeter/1
+ 14525 bwang1   9216K  776K sleep   49    0   1:00:10 0.0% dtterm/1
+PROJID    NPROC  SWAP   RSS MEMORY      TIME  CPU PROJECT                     
+     3       22   19G 9705M    59%  11:28:00 0.2% default                     
+Total: 22 processes, 26 lwps, load averages: 1.38, 1.41, 1.42

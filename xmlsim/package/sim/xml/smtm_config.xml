@@ -1,0 +1,1466 @@
+<?xml version="1.0"?>
+
+<SIM>
+
+<NE> /// a comment
+   <TID>      
+     SMTM
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9101
+   </PORT>
+   <IP>     
+     172.23.120.22
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.2.2.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+   pm1
+   tooos
+   tois
+    ochm310
+    delochm310
+    ochp3109
+    delochp3109
+    smtm311
+    delsmtm311
+    sts31091
+    delsts31091
+    sts121094
+    delsts121094
+    oc3m10114
+    deloc3m10114
+    sts1091to10101
+    delsts1091to10101
+   oc33102
+   deloc33102
+     sync373
+     sync291
+     delsync373
+     delsync291
+     sync218
+     delsync218
+    oprsync218
+    oprsync217
+    oprsync373
+    oprsync374
+   relsync218
+   relsync373
+   relsync374
+     ffpoc123104
+     delffpoc123104
+     crsgbep3116to3126
+     delcrsgbep3116to3126
+     crsoc19231111to31211
+     delcrsoc19231111to31211
+   createsmtm313
+   createoc192line3139
+   createoc192lpt31310
+   createoc192ppt31311
+   createochp3139
+   createochm31310
+   createochxc
+   deleteochxc
+   entsts3c
+   entgoptxc
+   dltgoptxc
+   mrtmramm251_271
+   delmrtmramm251_271
+     alarm1
+     clear1
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-02
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9102
+   </PORT>
+   <IP>
+     172.23.120.22
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.2.0.0A
+   </NEVERSION>   
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-03
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9103
+   </PORT>
+   <IP>
+     172.23.120.22
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.2.0.0A
+   </NEVERSION>   
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-04
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9104
+   </PORT>
+   <IP>
+    172.23.120.22
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.2.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-05
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9105
+   </PORT>
+   <IP>
+     172.23.120.22
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.2.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+
+<SERVERGROUP>
+   <AID>
+      SG1
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp20
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG2
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp20
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG3
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp20
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG4
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp20
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG5
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp20
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG6
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp20
+   </VERSION>
+</SERVERGROUP>
+
+<SITE>
+   <AID>
+      SITE1
+   </AID>
+</SITE>
+
+<SITE>
+   <AID>
+      SITE2
+   </AID>
+</SITE>
+
+<SITE>
+   <AID>
+      SITE3
+   </AID>
+</SITE>
+
+<AUTONOMOUS>
+   <AID>
+     alarm1
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+*   581 REPT ALM EQPT
+[SPC][SPC][SPC]"MIAM-1-2:MN,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   0
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000
+   </SCHEDULE>
+   <TYPE>
+   alarm
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     tois
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  666 REPT DBCHG
+[SPC][SPC][SPC]"TIME=12-02-24,DATE=03-08,,,DBCHGSEQ=635:ED-EQPT:SMTM-2-8::ALMPF=99,CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\",CPNAME=\"\",,:IS-NR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   tois
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    ffpoc123104
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-FFP-OC12:OC12-3-10-4,OC12M-3-10-11-13::SCHEME=1P1,RVTRV=N,WTR=1200:IS-NR,NOREQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   ffpoc123104
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delffpoc123104
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-FFP-OC12:OC12-3-10-4,OC12M-3-10-11-13:"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delffpoc123104
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    sync371
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:OC12-3-7-1,OC12-3-7-2:::IS-IR,MANTOPROT"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   sync371
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    sync291
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:OC3-2-9-1,OC3-2-9-2:::IS-IR,NOREQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   sync291
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delsync291
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-SYNC:OC3-2-9-1,OC3-2-9-2"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delsync291
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    sync218
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:T1-2-18-13,T1-2-17-13:::IS-IR,MANTOPROT"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   sync218
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    oprsync218
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:T1-2-18-13,T1-2-17-13:::IS-IR,MANTOWKG"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   oprsync218
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    oprsync217
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:T1-2-18-13,T1-2-17-13:::IS-IR,MANTOPROT"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   oprsync217
+   </TYPE>
+</AUTONOMOUS>
+
+
+<AUTONOMOUS>
+   <AID>
+    oprsync373
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:OC3-3-7-3,OC3-3-7-4:::IS-IR,MANTOWKG"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   oprsync373
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    oprsync374
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:OC3-3-7-3,OC3-3-7-4:::IS-IR,MANTOPROT"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   oprsync374
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    relsync218
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:T1-2-18-13,T1-2-17-13:::IS-IR,NOREQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   relsync218
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    relsync373
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:OC3-3-7-3,OC3-3-7-4:::IS-IR,NOREQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   relsync373
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    relsync374
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:OC3-3-7-3,OC3-3-7-4:::IS-IR,NOREQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   relsync374
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delsync218
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-SYNC:T1-2-18-13,T1-2-17-13"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delsync218
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delsync371
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-SYNC:OC12-3-7-1,OC12-3-7-2"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delsync371
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    sync373
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-SYNC:OC3-3-7-3,OC3-3-7-4:::IS-IR,MANTOWKG"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   sync373
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delsync373
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-SYNC:OC3-3-7-3,OC3-3-7-4"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delsync373
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    ochp3109
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OCH:OCH-P-3-10-9::ALMPF=99,CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\":IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   ochp3109
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    ochm310
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OCH:OCH-M-3-10-10::ALMPF=99,CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\":IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   ochm310
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delochp3109
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-OCH:OCH-P-3-10-9"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delochp3109
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delochm310
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-OCH:OCH-M-3-10-10"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delochm310
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    smtm311
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-EQPT:SMTM-3-11::ALMPF=99,CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\",CPNAME=\"\",CHAN=11,TMG=INTERNAL,FUNCTION=ADM,:IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   smtm311
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    entsts3c
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-STS3C:[AID]::ALMPF=99,CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\",CPNAME=\"\",SDTHRESH=10E-9,SFTHRESH=10E-6:IS-IR,"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   entsts3c
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    createsmtm313
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-EQPT:SMTM-3-13::ALMPF=99,CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\",CPNAME=\"\",CHAN=NA,TMG=INTERNAL,FUNCTION=ADM,:IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   createsmtm313
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    mrtmramm251_271
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-CRS-OC48:OC48-2-5-1,OC48-2-7-1:2-WAY:CKTID=\"TORONTO\",CCPATH=ADD/DROP:IS-NR,"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   mrtmramm251_271
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    entgoptxc
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-CRS-GOPT:GOPT-W-2-17-2,GBEP-3-11-4:2-WAY:CKTID=\"TORONTO\",CCPATH=ADD/DROP:IS-NR,"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   entgoptxc
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    dltgoptxc
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-CRS-GOPT:GOPT-W-2-17-2,GBEP-3-11-4"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   dltgoptxc
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delmrtmramm251_271
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-CRS-OC48:OC48-2-5-1,OC48-2-7-1"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delmrtmramm251_271
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    createoc192line3139
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OC192:OC192-3-13-9::CPTYPE=\"SONET MULTIPLEXOR TRANSPONDER MODULE\",TRC=\"OC192 3 xx 9\",EXPTRC=\"EPX OC192 3 xx 9\",INCTRC=\"INC OC192 3 xx 9\",MONTRC=ENABLED-NOAIS,SFTHRESH=10E-4,SDTHRESH=10E-6,TIMINGREF=OC192-3-11-9,SSMSUPP=YES,SSMRX=PRS,ALMPF=99,:IS,ACTIVE"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   createoc192line3139
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    createoc192lpt31310
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OC192:OC192-3-13-10::CPTYPE=\"SONET MULTIPLEXOR TRANSPONDER MODULE\",TRC=\"OC192 3 xx 10\",EXPTRC=\"EPX OC192 3 xx 10\",INCTRC=\"INC OC192 3 xx 10\",MONTRC=ENABLED-NOAIS,SFTHRESH=10E-4,SDTHRESH=10E-6,TIMINGREF=OC192-3-11-10,SSMSUPP=YES,SSMRX=PRS,ALMPF=99,:IS,ACTIVE"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   createoc192lpt31310
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    createoc192ppt31311
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OC192:OC192-3-13-11::CPTYPE=\"SONET MULTIPLEXOR TRANSPONDER MODULE\",TRC=\"OC192 3 xx 11\",EXPTRC=\"EPX OC192 3 xx 11\",INCTRC=\"INC OC192 3 xx 11\",MONTRC=ENABLED-NOAIS,SFTHRESH=10E-4,SDTHRESH=10E-6,TIMINGREF=OC192-3-xx-11,SSMSUPP=YES,SSMRX=PRS,ALMPF=99,:IS,ACTIVE"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   createoc192ppt31311
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    createochm31310
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OC192:OCH-M-3-13-10::CPTYPE=\"SONET MULTIPLEXOR TRANSPONDER MODULE\",ALMPF=99:OOS-MAANR,IDLE&SGEO"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   createochm31310
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    createochp3139
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OCH:OCH-P-3-13-9::CPTYPE=\"SONET MULTIPLEXOR TRANSPONDER MODULE\",OTUMAP=ENABLED,EXPOTUTRC=\"OCH P 3 13 9 EXPTRC\",OTUTRC=\"Trail TRACE \",MONOTUTRC=ENABLED-AIS,ALMPF=99:OOS-MAANR,IDLE&SGEO"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   createochp3139
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    crsgbep3116to3126
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-CRS-GBEP:GBEP-3-11-6,GBEP-3-12-6:2WAY:CKTID=\"GBEP to GBEP\",CCPATH=SMTM-SMTM:IS-IR,"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   crsgbep3116to3126
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    crsoc19231111to31211
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-CRS-OC192:OC192-3-11-11,OC192-3-12-11:2WAY:CKTID=\"OC192PPT to OC192PPT\",CCPATH=SMTM-SMTM:IS-IR,"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   crsoc19231111to31211
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delcrsgbep3116to3126
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-CRS-GBEP:GBEP-3-11-6,GBEP-3-12-6"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delcrsgbep3116to3126
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delcrsoc19231111to31211
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-CRS-OC192:OC192-3-11-11,OC192-3-12-11"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delcrsoc19231111to31211
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    sts31091
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:ED-STS3T:STS3T-3-10-9-1::CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\",ALMPF=99,:IS-RST,PMI&SGEO"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   sts31091
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delsts31091
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:DLT-STS3T:STS3T-3-10-9-1"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delsts31091
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    oc33102
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:ED-OC3:OC3-3-10-2::EXTCONNECT=NO,CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\",CONNECTED=\"\",SFTHRESH=10E-4,SDTHRESH=10E-6,ALMPF=99,:IS-RST,PMI&SGEO"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   oc33102
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    deloc33102
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:DLT-OC3:OC3-3-10-2"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   deloc33102
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    oc3m10114
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:ED-OC3M:OC3M-3-10-11-4::EXTCONNECT=NO,CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\",CONNECTED=\"\",SFTHRESH=10E-4,SDTHRESH=10E-6,ALMPF=99,:IS-RST,PMI&SGEO"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   oc3m10114
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    deloc3m10114
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:DLT-OC3M:OC3M-3-10-11-4"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   deloc3m10114
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    sts121094
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:ED-STS12T:STS12T-3-10-9-4::CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\",ALMPF=99,:OOS-RST,PMI&SGEO"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   sts121094
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delsts121094
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:DLT-STS12T:STS12T-3-10-9-4"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delsts121094
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delsmtm311
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:DLT-EQPT:SMTM-3-11:"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delsmtm311
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+   sts1091to10101
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:ED-CRS-STS1:STS1-3-10-9-1,STS1-3-10-10-1:2WAY:CKTID=\"STS1-STS1\",:IS-NR,"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   sts1091to10101
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+   delsts1091to10101
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:DLT-CRS-STS1:STS1-3-10-9-1,STS1-3-10-10-1"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delsts1091to10101
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+   createochxc
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:ED-CRS-OCH:OCH-L-1-1-1-1,OCH-P-3-7-9:2WAY:CKTID=\"OCH-L-OCH-P\",CCPATH=OLIM-SMTM:IS-NR,"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   createochxc
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+   deleteochxc
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-32-04,DATE=03-08,,,DBCHGSEQ=655:DLT-CRS-OCH:OCH-L-1-1-1-1,OCH-P-3-7-9"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   deleteochxc
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     tooos
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  666 REPT DBCHG
+[SPC][SPC][SPC]"TIME=12-02-24,DATE=03-08,,,DBCHGSEQ=635:ED-EQPT:SMTM-2-8::ALMPF=99,CPTYPE=\"SONET MULTIPLEXER TRANSPONDER MODULE\",CPNAME=\"\",,:OOS-AUMA,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   tooos
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     clear1
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A   583 REPT ALM EQPT
+[SPC][SPC][SPC]"MIAM-1-2:CL,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   clear
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     tca1
+   </AID>
+   <REPORT>
+   [HEADER]
+A   584 REPT EVT EQPT
+   "OCH-1-8-1-1:T-LBCL,TC,[DATE],[TIME],NEND,NA,103,100,15-MIN:\"Laser Bias Current Level\""
+   </REPORT>
+   <INITIALDELAY>
+   0
+   </INITIALDELAY>
+   <SCHEDULE>
+   3600
+   </SCHEDULE>
+   <TYPE>
+   clear
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     pm1
+   </AID>
+   <REPORT>
+   [HEADER]
+A   527 REPT PM OCH
+   "OCH-L-1-1-1-1:OPR,NA,NA,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPR-F,NA,NA,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPR-C,NA,NA,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPT,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPT-F,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPT-C,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   </REPORT>
+   <INITIALDELAY>
+   0
+   </INITIALDELAY>
+   <SCHEDULE>
+   54000
+   </SCHEDULE>
+   <TYPE>
+   pm
+   </TYPE>
+</AUTONOMOUS>
+
+<CONFIGPATH>
+  <AID>
+  OLT1
+  </AID>
+  <PATH>
+  cfg/xml/SM_TM.xml
+  </PATH>
+</CONFIGPATH>
+
+
+
+
+</SIM>

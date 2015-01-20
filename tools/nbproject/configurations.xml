@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="35">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="sim" displayName="sim" projectFiles="true">
+      <itemPath>../../src/EMS_OTS/tools/sim/AbstractSocketConnection.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/AbstractSocketConnection.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/AutonomousScheduler.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/AutonomousScheduler.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/BaseException.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/BaseException.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/ConfigManager.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/ConfigManager.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/simulator.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/SocketAcceptor.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/SocketAcceptor.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/SocketConnection.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/SocketConnection.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/SocketHandler.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/SocketHandler.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/SocketListener.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/SocketListener.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/TL1CommandResolver.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/TL1CommandResolver.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/TL1ConnectionManager.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/TL1ConnectionManager.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/TL1SimSocketAcceptor.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/TL1SimSocketAcceptor.cpp</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/XmlParser.h</itemPath>
+      <itemPath>../../src/EMS_OTS/tools/sim/XmlParser.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>../../src/EMS_OTS/tools/sim/Makefile</itemPath>
+      <itemPath>tools-Makefile.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>tools-Makefile.mk</projectmakefile>
+  <defaultConf>0</defaultConf>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>Sun12</compilerSet>
+        <cRequired>true</cRequired>
+        <cppRequired>true</cppRequired>
+        <fortranRequired>false</fortranRequired>
+        <platform>0</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>../../src/EMS_OTS/tools/sim</buildCommandWorkingDir>
+          <buildCommand>make -f Makefile</buildCommand>
+          <cleanCommand>make -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cCompilerTool>
+            <includeDirectories>
+              <directoryPath>../../src/EMS_OTS/tools/sim</directoryPath>
+            </includeDirectories>
+          </cCompilerTool>
+          <ccCompilerTool>
+            <includeDirectories>
+              <directoryPath>../../src/EMS_OTS/tools/sim</directoryPath>
+            </includeDirectories>
+          </ccCompilerTool>
+        </makeTool>
+      </makefileType>
+      <item path="../../src/EMS_OTS/tools/sim/AbstractSocketConnection.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/AbstractSocketConnection.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/AutonomousScheduler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/AutonomousScheduler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/BaseException.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/BaseException.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/ConfigManager.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/ConfigManager.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/SocketAcceptor.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/SocketAcceptor.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/SocketConnection.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/SocketConnection.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/SocketHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/SocketHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/SocketListener.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/SocketListener.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/TL1CommandResolver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/TL1CommandResolver.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/TL1ConnectionManager.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/TL1ConnectionManager.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/TL1SimSocketAcceptor.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/TL1SimSocketAcceptor.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/XmlParser.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/XmlParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../src/EMS_OTS/tools/sim/simulator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

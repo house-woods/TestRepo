@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="35">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="nm" displayName="nm" projectFiles="true">
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/BoundsType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/BoundsType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultAttributeListType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultAttributeListType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultAttributeType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultAttributeType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationListType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationListType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationSummaryType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationSummaryType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerListType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerListType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerSummaryType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerSummaryType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultSummaryType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/DefaultSummaryType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Ems_Ne_CoordSeqType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Ems_Ne_CoordSeqType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Ems_Ne_CoordType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Ems_Ne_CoordType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/EntitySearchCriteriaType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/EntitySearchCriteriaType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/EntitySearchResultType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/EntitySearchResultType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/GeoEntity.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/GeoEntity.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/LinkEndType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/LinkEndType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/LinkSeqType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/LinkSeqType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/LinkType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/LinkType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/main.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NbiAdminTool.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NbiAdminTool.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NeEntityStatusListType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NeEntityStatusListType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NeEntityStatusType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NeEntityStatusType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NetworkAlarmAnalyzer.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NetworkAlarmAnalyzer.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NetworkNodeType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NetworkNodeType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NetworkPopulationType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NetworkPopulationType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NetworkSubrateAlarmAnalyzer.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NetworkSubrateAlarmAnalyzer.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NmNetworkElement.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NmNetworkElement.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NmServer.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NmServer.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NodeManager_i.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NodeManager_i.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NodeNameResolver.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NodeNameResolver.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NodeNotification.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NodeNotification.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NodeObjectFactory.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NodeObjectFactory.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NodeSeqType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/NodeSeqType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/OpticalPowerRangeListType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/OpticalPowerRangeType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/OpticalPowerRangeType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Region.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Region.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Root.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Root.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/ScreenResolutionType.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/ScreenResolutionType.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Site.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Site.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/SnmpCfgTool.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/SnmpCfgTool.cpp</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/SubrateCircuit.h</itemPath>
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/SubrateCircuit.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>/vobs/EMS_OTS/Framework/servers/nm/Makefile</itemPath>
+      <itemPath>nm_1-Makefile.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>nm_1-Makefile.mk</projectmakefile>
+  <defaultConf>0</defaultConf>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>Sun12</compilerSet>
+        <cRequired>true</cRequired>
+        <cppRequired>true</cppRequired>
+        <fortranRequired>false</fortranRequired>
+        <platform>0</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>/vobs/EMS_OTS/Framework/servers/nm</buildCommandWorkingDir>
+          <buildCommand>make -f Makefile</buildCommand>
+          <cleanCommand>make -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/BoundsType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/BoundsType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultAttributeListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultAttributeListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultAttributeType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultAttributeType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationSummaryType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationSummaryType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPApplicationType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerSummaryType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerSummaryType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultFTPServerType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultSummaryType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/DefaultSummaryType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/Ems_Ne_CoordSeqType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/Ems_Ne_CoordSeqType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/Ems_Ne_CoordType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/Ems_Ne_CoordType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/EntitySearchCriteriaType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/EntitySearchCriteriaType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/EntitySearchResultType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/EntitySearchResultType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/GeoEntity.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/GeoEntity.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/LinkEndType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/LinkEndType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/LinkSeqType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/LinkSeqType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/LinkType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/LinkType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NbiAdminTool.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NbiAdminTool.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NeEntityStatusListType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NeEntityStatusListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NeEntityStatusType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NeEntityStatusType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NetworkAlarmAnalyzer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NetworkAlarmAnalyzer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NetworkNodeType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NetworkNodeType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NetworkPopulationType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NetworkPopulationType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NetworkSubrateAlarmAnalyzer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NetworkSubrateAlarmAnalyzer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NmNetworkElement.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NmNetworkElement.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NmServer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NmServer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NodeManager_i.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NodeManager_i.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NodeNameResolver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NodeNameResolver.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NodeNotification.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NodeNotification.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NodeObjectFactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NodeObjectFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NodeSeqType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/NodeSeqType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/OpticalPowerRangeListType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/OpticalPowerRangeType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/OpticalPowerRangeType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/Region.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/Region.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/Root.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/Root.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/ScreenResolutionType.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/ScreenResolutionType.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/Site.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/Site.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/SnmpCfgTool.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/SnmpCfgTool.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/SubrateCircuit.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/SubrateCircuit.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/vobs/EMS_OTS/Framework/servers/nm/main.cpp">
+        <itemTool>1</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

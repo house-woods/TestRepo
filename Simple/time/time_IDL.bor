@@ -1,0 +1,56 @@
+# Makefile for building the  with Borland C++ Make
+
+
+NO_FULL_PATH=1
+
+LFLAGS = \
+        -L"." \
+        -j"." 
+
+!ifdef STATIC
+!else
+!endif
+
+CFLAGS = \
+	$(LIB_FLAGS) \
+	$(DLL_FLAGS)
+
+INCDIR_NAME = examples\Simple\time
+
+#
+# idl_files rules
+#
+
+
+idl_files_1= TimeC.cpp TimeC.h TimeC.inl TimeS.cpp TimeS.h TimeS.inl
+$(idl_files_1): Time.idl
+	..\..\..\..\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I..\..\.. -Sa -St Time.idl 
+
+all: $(idl_files_1)
+
+customclean_idl_files_1:
+	@del $(idl_files_1) 2>nul
+
+clean: customclean_idl_files_1
+
+realclean: customclean_idl_files_1
+
+
+#
+# Override defaults in outputdir.bor
+#
+INCLUDES_INSTALL=1
+INSTALL_TYPES = includes
+
+!include <$(ACE_ROOT)\include\makeinclude\install.bor>
+
+all:
+	@-rem
+
+includes_install: $(INCLUDES)
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y Time.idl $(INSTALL_DIR)\include\$(INCDIR_NAME)\Time.idl 1> NUL
+
+realclean:
+        @-rem
+

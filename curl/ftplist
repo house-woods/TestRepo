@@ -1,0 +1,11 @@
+total 25
+-rw-------   1 bwang1   other        899 Dec 19 02:00 .bash_history
+-rw-r--r--   1 bwang1   other        144 Aug  9 03:17 .profile
+drwxr-xr-x   2 bwang1   other         14 Oct 17 02:49 em_server_9.5
+drwxr-xr-x   3 bwang1   other          3 Oct 17 02:57 EMS9.5
+-rw-r--r--   1 bwang1   other        136 Aug  9 03:17 local.cshrc
+-rw-r--r--   1 bwang1   other        167 Aug  9 03:17 local.login
+-rw-r--r--   1 bwang1   other        184 Aug  9 03:17 local.profile
+drwxr-xr-x   3 bwang1   other          3 Oct 17 02:54 oradiag_bwang1
+-rw-r--r--   1 bwang1   other         12 Dec 19 08:35 testftp
+drwxr-xr-x   3 bwang1   other          3 Nov 27 05:15 validate

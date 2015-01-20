@@ -1,0 +1,4 @@
+#! /usr/local/bin/nawk -f
+# a sample awk program
+BEGIN { print "hello, world" }
+FNR==2 {OFS=","; print "2:", $0 }

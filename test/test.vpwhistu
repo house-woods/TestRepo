@@ -1,0 +1,26 @@
+[Global]
+CurrentProject=test.vpj
+[ProjectDates]
+test.vpj=20071227172602000
+[ActiveConfig]
+test.vpj=Debug
+[TreeExpansion2]
++ test.vpj
+scroll:0
+[State]
+SCREEN: 1280 960 0 0 1268 925 0 0 N 0 0 0 0 1019 594
+CWD: ../../development/EMS_OTS/
+FILEHIST: 8
+../../src/EMS_OTS/server/cm/ProvRules/OTSProvMethodMap.cpp
+../../src/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP22.h
+../../src/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP22.cpp
+../../src/EMS_OTS/server/cm/ProvRules/OTSProvisionRulesFP21.cpp
+../../src/EMS_OTS/server/cm/OtsTypes/SlotModuleType.h
+../../src/EMS_OTS/idl/OTSDEFC.cpp
+../../src/EMS_OTS/Framework/libs/libtl1/TL1Utility.h
+../../src/EMS_OTS/Framework/libs/libtl1/TL1Utility.cpp
+DEBUG: 0 0 0 0 3 0
+printf
+strcpy
+std::*
+TBCLASS: 0 0

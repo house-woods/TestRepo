@@ -1,0 +1,19 @@
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+build/Debug/Sun12-Solaris-Sparc/welcome.o:	/opt/SUNWspro/prod/include/CC/Cstd/iostream.h /opt/SUNWspro/prod/include/CC/Cstd/stdcomp.h /opt/SUNWspro/prod/include/CC/Cstd/compnent.h /opt/SUNWspro/prod/include/CC/Cstd/istream /opt/SUNWspro/prod/include/CC/Cstd/ios /opt/SUNWspro/prod/include/CC/Cstd/rw/rwstderr.h /opt/SUNWspro/prod/include/CC/Cstd/rw/stddefs.h /usr/include/stddef.h /usr/include/sys/isa_defs.h /usr/include/iso/stddef_iso.h /usr/include/stdarg.h /usr/include/iso/stdarg_iso.h /usr/include/sys/va_list.h
+.BUILT_LAST_MAKE_RUN:
+build/Debug/Sun12-Solaris-Sparc/welcome.o:	/opt/SUNWspro/prod/include/CC/Cstd/rw/rwstderr_macros.h /opt/SUNWspro/prod/include/CC/Cstd/rw/rwlocale /opt/SUNWspro/prod/include/CC/Cstd/string /usr/include/string.h /usr/include/iso/string_iso.h /usr/include/sys/feature_tests.h /usr/include/ctype.h /usr/include/iso/ctype_iso.h /usr/include/wchar.h /usr/include/iso/wchar_iso.h /usr/include/stdio_tag.h /usr/include/wchar_impl.h /usr/include/iso/time_iso.h /usr/include/wctype.h /usr/include/iso/wctype_iso.h
+.BUILT_LAST_MAKE_RUN:
+build/Debug/Sun12-Solaris-Sparc/welcome.o:	/opt/SUNWspro/prod/include/CC/Cstd/rw/string_ref /opt/SUNWspro/prod/include/CC/Cstd/memory /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/limits.h /usr/include/iso/limits_iso.h /usr/include/sys/int_limits.h /opt/SUNWspro/prod/include/CC/new /opt/SUNWspro/prod/include/CC/exception /opt/SUNWspro/prod/include/CC/Cstd/rw/iterator /opt/SUNWspro/prod/include/CC/Cstd/utility /opt/SUNWspro/prod/include/CC/Cstd/rw/stdmutex.h /usr/include/pthread.h
+.BUILT_LAST_MAKE_RUN:
+build/Debug/Sun12-Solaris-Sparc/welcome.o:	/usr/include/sys/types.h /usr/include/sys/machtypes.h /usr/include/sys/int_types.h /usr/include/sys/select.h /usr/include/sys/time.h /usr/include/time.h /usr/include/sys/time_impl.h /usr/include/sched.h /opt/SUNWspro/prod/include/CC/Cstd/rw/traits /usr/include/stdio.h /usr/include/iso/stdio_iso.h /usr/include/stdio_impl.h /opt/SUNWspro/prod/include/CC/Cstd/rw/iotraits /opt/SUNWspro/prod/include/CC/Cstd/iosfwd /opt/SUNWspro/prod/include/CC/Cstd/stdexcept
+.BUILT_LAST_MAKE_RUN:
+build/Debug/Sun12-Solaris-Sparc/welcome.o:	/opt/SUNWspro/prod/include/CC/typeinfo /opt/SUNWspro/prod/include/CC/Cstd/rw/locimpl /opt/SUNWspro/prod/include/CC/Cstd/rw/locvector /opt/SUNWspro/prod/include/CC/Cstd/rw/vendor /opt/SUNWspro/prod/include/CC/Cstd/rw/ctype /opt/SUNWspro/prod/include/CC/Cstd/rw/numeral /opt/SUNWspro/prod/include/CC/Cstd/rw/iosbase /opt/SUNWspro/prod/include/CC/Cstd/limits /opt/SUNWspro/prod/include/CC/Cstd/rw/math.h /usr/include/math.h /usr/include/iso/math_iso.h /usr/include/float.h
+.BUILT_LAST_MAKE_RUN:
+build/Debug/Sun12-Solaris-Sparc/welcome.o:	/opt/SUNWspro/prod/include/CC/Cstd/rw/codecvt /opt/SUNWspro/prod/include/CC/Cstd/rw/usefacet /opt/SUNWspro/prod/include/CC/Cstd/ostream /opt/SUNWspro/prod/include/CC/Cstd/streambuf 
+	mkdir -p build/Debug/Sun12-Solaris-Sparc
+	CC    -c -g -o build/Debug/Sun12-Solaris-Sparc/welcome.o welcome.cc
+.BUILT_LAST_MAKE_RUN:
+dist/Debug/welcome:	/lib/libdl.so.1 /lib/libc.so /lib/libm.so /opt/SUNWspro/lib/libCrun.so /opt/SUNWspro/lib/sparc/libCstd.so 
+	mkdir -p dist/Debug
+	CC    -o dist/Debug/welcome build/Debug/Sun12-Solaris-Sparc/welcome.o  

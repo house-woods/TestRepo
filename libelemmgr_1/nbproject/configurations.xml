@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="35">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="libelemmgr" displayName="libelemmgr" projectFiles="true">
+      <logicalFolder name="cm" displayName="cm" projectFiles="true">
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CM_i.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CM_i.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmAutodiscoveryCmd.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmAutodiscoveryCmd.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMEmsObject.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMEmsObject.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmEventQueue.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmEventQueue.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmEventQueueControlCmd.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmEventQueueControlCmd.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMFrameworkServer.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMFrameworkServer.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMGlobalChannelManager.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMGlobalChannelManager.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmNameResolver.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmNameResolver.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmNetworkElement.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmNetworkElement.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmPropertyObject.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmPropertyObject.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmServer.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmServer.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMSessionManager.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMSessionManager.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/DbEventHandeler.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/DbEventHandeler.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsGUIHandeler.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsGUIHandeler.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsObject.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsObject.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsObjectFactory.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsObjectFactory.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EventHandeler.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EventHandeler.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EventManager.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EventManager.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/GuiCmdInfo.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/GuiCmdInfo.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NavigatorObject.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NavigatorObject.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NavigatorObjectFactory.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NavigatorObjectFactory.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NodeInterface.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NodeInterface.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/ProductDecisionMaker.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/ProductDecisionMaker.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/PropertyObject.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/PropertyObject.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/QueryObject.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/QueryObjectFactory.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/QueryObjectFactory.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="fm" displayName="fm" projectFiles="true">
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AbstractAlarm.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AbstractAlarm.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmCollection.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmCollection.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmDbMgr.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmDbMgr.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmFilter.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmFilter.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmFilterCriteria.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmFilterCriteria.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmLogger.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmLogger.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmRecord_i.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmRecord_i.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmResyncHandler.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmResyncHandler.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmSeverity.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmSeverity.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmSeverityReceiver.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmSeverityReceiver.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/ClientSession.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/ClientSession.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/DbInstanceMgr.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/DbInstanceMgr.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/EmsNe_FMSynchronization.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/EmsNe_FMSynchronization.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/FaultManager_i.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/FaultManager_i.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/FMAlarmCollection.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/FMAlarmCollection.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/NEAlarmControl_i.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/NEAlarmControl_i.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/swalarmreceiver_i.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/swalarmreceiver_i.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/TL1FmEventReceiver.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/TL1FmEventReceiver.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="proxy" displayName="proxy" projectFiles="true">
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/AppletAcceptor.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/AppletAcceptor.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/HttpAcceptor.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/HttpAcceptor.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/Proxy_i.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/Proxy_i.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ProxyAccountManager.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ProxyAccountManager.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ProxyEventReceiver.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ProxyEventReceiver.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ReactorWrapper.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ReactorWrapper.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TelnetAcceptor.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TelnetAcceptor.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TelnetSocketHandler.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TelnetSocketHandler.cpp</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TL1ProxyLocRecoverHandler.h</itemPath>
+        <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TL1ProxyLocRecoverHandler.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>libelemmgr_1-Makefile.mk</itemPath>
+      <itemPath>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>libelemmgr_1-Makefile.mk</projectmakefile>
+  <defaultConf>0</defaultConf>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>Sun12</compilerSet>
+        <cRequired>true</cRequired>
+        <cppRequired>true</cppRequired>
+        <fortranRequired>false</fortranRequired>
+        <platform>0</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr</buildCommandWorkingDir>
+          <buildCommand>make -f Makefile</buildCommand>
+          <cleanCommand>make -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMEmsObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMEmsObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMFrameworkServer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMFrameworkServer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMGlobalChannelManager.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMGlobalChannelManager.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMSessionManager.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CMSessionManager.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CM_i.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CM_i.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmAutodiscoveryCmd.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmAutodiscoveryCmd.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmEventQueue.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmEventQueue.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmEventQueueControlCmd.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmEventQueueControlCmd.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmNameResolver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmNameResolver.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmNetworkElement.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmNetworkElement.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmPropertyObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmPropertyObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmServer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/CmServer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/DbEventHandeler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/DbEventHandeler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsGUIHandeler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsGUIHandeler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsObjectFactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EmsObjectFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EventHandeler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EventHandeler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EventManager.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/EventManager.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/GuiCmdInfo.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/GuiCmdInfo.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NavigatorObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NavigatorObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NavigatorObjectFactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NavigatorObjectFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NodeInterface.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/NodeInterface.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/ProductDecisionMaker.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/ProductDecisionMaker.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/PropertyObject.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/PropertyObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/QueryObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/QueryObjectFactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/cm/QueryObjectFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AbstractAlarm.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AbstractAlarm.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmCollection.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmCollection.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmDbMgr.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmDbMgr.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmFilter.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmFilter.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmFilterCriteria.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmFilterCriteria.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmLogger.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmLogger.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmRecord_i.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmRecord_i.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmResyncHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmResyncHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmSeverity.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmSeverity.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmSeverityReceiver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/AlarmSeverityReceiver.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/ClientSession.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/ClientSession.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/DbInstanceMgr.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/DbInstanceMgr.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/EmsNe_FMSynchronization.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/EmsNe_FMSynchronization.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/FMAlarmCollection.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/FMAlarmCollection.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/FaultManager_i.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/FaultManager_i.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/NEAlarmControl_i.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/NEAlarmControl_i.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/TL1FmEventReceiver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/TL1FmEventReceiver.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/swalarmreceiver_i.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/fm/swalarmreceiver_i.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/AppletAcceptor.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/AppletAcceptor.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/HttpAcceptor.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/HttpAcceptor.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ProxyAccountManager.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ProxyAccountManager.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ProxyEventReceiver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ProxyEventReceiver.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/Proxy_i.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/Proxy_i.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ReactorWrapper.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/ReactorWrapper.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TL1ProxyLocRecoverHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TL1ProxyLocRecoverHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TelnetAcceptor.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TelnetAcceptor.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TelnetSocketHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="/view/bwang1_t71mr00112221/vobs/EMS_OTS/Framework/libs/libelemmgr/proxy/TelnetSocketHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

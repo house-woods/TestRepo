@@ -1,0 +1,40 @@
+<SIM>
+
+<NE>
+   <TID>
+     EMS7100-02
+   </TID>
+   <SUPPORTEDAUTONOMOUS>
+   alarm5
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-01
+   </TID>
+   <SUPPORTEDAUTONOMOUS>
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<AUTONOMOUS>
+   <AID>
+     alarm5
+   </AID>
+   <REPORT>
+    [HEADER]
+*   581 REPT ALM EQPT
+    "MIAM-1-4:MN,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   0
+   </INITIALDELAY>
+   <SCHEDULE>
+   60
+   </SCHEDULE>
+   <TYPE>
+   alarm
+   </TYPE>
+</AUTONOMOUS>
+
+</SIM>

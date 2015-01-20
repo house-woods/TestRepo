@@ -1,0 +1,8431 @@
+<?xml version="1.0"?>
+
+<SIM>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-01
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9101
+   </PORT>
+   <IP>     
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     alarm1
+     clear1
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-02
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9102
+   </PORT>
+   <IP>
+     172.23.121.200
+  </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-03
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9103
+   </PORT>
+   <IP>
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-04
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9104
+   </PORT>
+   <IP>
+    172.23.121.200
+  </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-05
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9105
+   </PORT>
+   <IP>
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-06
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9106
+   </PORT>
+   <IP>     
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG2
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     alarm1
+     clear1
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-07
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9107
+   </PORT>
+   <IP>
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG2
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-08
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9108
+   </PORT>
+   <IP>
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG2
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-09
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9109
+   </PORT>
+   <IP>
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG2
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-10
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9110
+   </PORT>
+   <IP>     
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG2
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-11
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9111
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG3
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm1
+     clear1
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-12
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9112
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG3
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-13
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9113
+   </PORT>
+   <IP>
+    172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG3
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-14
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9114
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG3
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-15
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9115
+   </PORT>
+   <IP>     
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG3
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-16
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9116
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG4
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm1
+     clear1
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-17
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9117
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG4
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-18
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9118
+   </PORT>
+   <IP>
+    172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG4
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-19
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9119
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG4
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-20
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9120
+   </PORT>
+   <IP>     
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG4
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-21
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9121
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG5
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm2
+     clear2
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-22
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9122
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG5
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-23
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9123
+   </PORT>
+   <IP>
+    172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG5
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-24
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9124
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG5
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-25
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9125
+   </PORT>
+   <IP>     
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG5
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-26
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9126
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG6
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm2
+     clear2
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-27
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9127
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG6
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-28
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9128
+   </PORT>
+   <IP>
+    172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG6
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-29
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9129
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG6
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-30
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9130
+   </PORT>
+   <IP>     
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG6
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-31
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9131
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG7
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm2
+     clear2
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-32
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9132
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG7
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-33
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9133
+   </PORT>
+   <IP>
+    172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG7
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-34
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9134
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG7
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-35
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9135
+   </PORT>
+   <IP>     
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG7
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-36
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9136
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG8
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm2
+     clear2
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-37
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9137
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG8
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-38
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9138
+   </PORT>
+   <IP>
+    172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG8
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-39
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9139
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG8
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-40
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9140
+   </PORT>
+   <IP>     
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG8
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-41
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9141
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG9
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-42
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9142
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG9
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-43
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9143
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG9
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-44
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9144
+   </PORT>
+   <IP>     
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG10
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     alarm3
+     clear3
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-45
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9145
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG10
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-46
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9146
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG10
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-47
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9147
+   </PORT>
+   <IP>
+    172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG10
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-48
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9148
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG10
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-49
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9149
+   </PORT>
+   <IP>     
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG10
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-50
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9150
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG10
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm3
+     clear3
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-51
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9151
+   </PORT>
+   <IP>     
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG11
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     alarm3
+     clear3
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-52
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9152
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG11
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-53
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9153
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG11
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-54
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9154
+   </PORT>
+   <IP>
+    172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG11
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-55
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9155
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG11
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-56
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9156
+   </PORT>
+   <IP>     
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG12
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+     alarm3
+     clear3
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-57
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9157
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG12
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-58
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9158
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG12
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-59
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9159
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG12
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-60
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9160
+   </PORT>
+   <IP>     
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG12
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-61
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9161
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG13
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm4
+     clear4
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-62
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9162
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG13
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-63
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9163
+   </PORT>
+   <IP>
+    172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG13
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-64
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9164
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG13
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-65
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9165
+   </PORT>
+   <IP>     
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG13
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-66
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9166
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG14
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm4
+     clear4
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-67
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9167
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG14
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-68
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9168
+   </PORT>
+   <IP>
+    172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG14
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-69
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9169
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG14
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-70
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9170
+   </PORT>
+   <IP>     
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG14
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-71
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9171
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG15
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm4
+     clear4
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-72
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9172
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG15
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-73
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9173
+   </PORT>
+   <IP>
+    172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG15
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-74
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9174
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG15
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-75
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9175
+   </PORT>
+   <IP>     
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG15
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-76
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9176
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG16
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm4
+     clear4
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-77
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9177
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG16
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-78
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9178
+   </PORT>
+   <IP>
+    172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG16
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-79
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9179
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG16
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-80
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9180
+   </PORT>
+   <IP>     
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG16
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-81
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9181
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG17
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm5
+     clear5
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-82
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9182
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG17
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-83
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9183
+   </PORT>
+   <IP>
+    172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG17
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-84
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9184
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG17
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-85
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9185
+   </PORT>
+   <IP>     
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG17
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-86
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9186
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG18
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+     alarm5
+     clear5
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-87
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9187
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG18
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-88
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9188
+   </PORT>
+   <IP>
+    172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG18
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-89
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9189
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG18
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-90
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9190
+   </PORT>
+   <IP>     
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG18
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-91
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9191
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG19
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-92
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9192
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG19
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-93
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9193
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG19
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-94
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9194
+   </PORT>
+   <IP>     
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG20
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     alarm5
+     clear5
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-95
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9195
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG20
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-96
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9196
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG20
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-97
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9197
+   </PORT>
+   <IP>
+    172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG20
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-98
+   </TID>
+   <SITENAME>
+     SITE2
+   </SITENAME>
+   <PORT>
+     9198
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG20
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-99
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9199
+   </PORT>
+   <IP>     
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG20
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-100
+   </TID>
+   <SITENAME>
+     SITE3
+   </SITENAME>
+   <PORT>
+     9200
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG20
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+     alarm5
+     clear5
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-101
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9301
+   </PORT>
+   <IP>     
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     alarm1
+     clear1
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-102
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9302
+   </PORT>
+   <IP>
+     172.23.121.200
+  </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-103
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9303
+   </PORT>
+   <IP>
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-104
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9304
+   </PORT>
+   <IP>
+    172.23.121.200
+  </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-105
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9305
+   </PORT>
+   <IP>
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-106
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9306
+   </PORT>
+   <IP>     
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG22
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     alarm1
+     clear1
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-107
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9307
+   </PORT>
+   <IP>
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG22
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-108
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9308
+   </PORT>
+   <IP>
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG22
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-109
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9309
+   </PORT>
+   <IP>
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG22
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-110
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9310
+   </PORT>
+   <IP>     
+     172.23.121.200
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG22
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-111
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9311
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG23
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm1
+     clear1
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-112
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9312
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG23
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-113
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9313
+   </PORT>
+   <IP>
+    172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG23
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-114
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9314
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG23
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-115
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9315
+   </PORT>
+   <IP>     
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG23
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-116
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9316
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG24
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm1
+     clear1
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-117
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9317
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG24
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-118
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9318
+   </PORT>
+   <IP>
+    172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG24
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-119
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9319
+   </PORT>
+   <IP>
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG24
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-120
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9320
+   </PORT>
+   <IP>     
+     172.23.121.201
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG24
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-121
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9321
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG25
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm2
+     clear2
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-122
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9322
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG25
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-123
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9323
+   </PORT>
+   <IP>
+    172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG25
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-124
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9324
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG25
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-125
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9325
+   </PORT>
+   <IP>     
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG25
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-126
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9326
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG26
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm2
+     clear2
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-127
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9327
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG26
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-128
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9328
+   </PORT>
+   <IP>
+    172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG26
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-129
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9329
+   </PORT>
+   <IP>
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG26
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-130
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9330
+   </PORT>
+   <IP>     
+     172.23.121.202
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG26
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-131
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9331
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG27
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm2
+     clear2
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-132
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9332
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG27
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-133
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9333
+   </PORT>
+   <IP>
+    172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG27
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-134
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9334
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG27
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-135
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9335
+   </PORT>
+   <IP>     
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG27
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-136
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9336
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG28
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm2
+     clear2
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-137
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9337
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG28
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-138
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9338
+   </PORT>
+   <IP>
+    172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG28
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-139
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9339
+   </PORT>
+   <IP>
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG28
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-140
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9340
+   </PORT>
+   <IP>     
+     172.23.121.203
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG28
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-141
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9341
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG29
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-142
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9342
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG29
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-143
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9343
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG29
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-144
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9344
+   </PORT>
+   <IP>     
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG30
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+     alarm3
+     clear3
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-145
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9345
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG30
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-146
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9346
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG30
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-147
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9347
+   </PORT>
+   <IP>
+    172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG30
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-148
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9348
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG30
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-149
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9349
+   </PORT>
+   <IP>     
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG30
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-150
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9350
+   </PORT>
+   <IP>
+     172.23.121.204
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG30
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm3
+     clear3
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-151
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9351
+   </PORT>
+   <IP>     
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG31
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     alarm3
+     clear3
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-152
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9352
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG31
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-153
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9353
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG31
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-154
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9354
+   </PORT>
+   <IP>
+    172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG31
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-155
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9355
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG31
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-156
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9356
+   </PORT>
+   <IP>     
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG32
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     alarm3
+     clear3
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-157
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9357
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG32
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-158
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9358
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG32
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-159
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9359
+   </PORT>
+   <IP>
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG32
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-160
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9360
+   </PORT>
+   <IP>     
+     172.23.121.205
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG32
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-161
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9361
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG33
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm4
+     clear4
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-162
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9362
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG33
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-163
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9363
+   </PORT>
+   <IP>
+    172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG33
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-164
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9364
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG33
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-165
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9365
+   </PORT>
+   <IP>     
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG33
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-166
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9366
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG34
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm4
+     clear4
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-167
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9367
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG34
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-168
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9368
+   </PORT>
+   <IP>
+    172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG34
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-169
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9369
+   </PORT>
+   <IP>
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG34
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-170
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9370
+   </PORT>
+   <IP>     
+     172.23.121.206
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG34
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-171
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9371
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG35
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm4
+     clear4
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-172
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9372
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG35
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-173
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9373
+   </PORT>
+   <IP>
+    172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG35
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-174
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9374
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG35
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-175
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9375
+   </PORT>
+   <IP>     
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG35
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-176
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9376
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG36
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm4
+     clear4
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-177
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9377
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG36
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-178
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9378
+   </PORT>
+   <IP>
+    172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG36
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-179
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9379
+   </PORT>
+   <IP>
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG36
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-180
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9380
+   </PORT>
+   <IP>     
+     172.23.121.207
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG36
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-181
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9381
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG37
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm5
+     clear5
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-182
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9382
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG37
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-183
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9383
+   </PORT>
+   <IP>
+    172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG37
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-184
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9384
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG37
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-185
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9385
+   </PORT>
+   <IP>     
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG37
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-186
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9386
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG38
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     alarm5
+     clear5
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-187
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9387
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG38
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-188
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9388
+   </PORT>
+   <IP>
+    172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG38
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-189
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9389
+   </PORT>
+   <IP>
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG38
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-190
+   </TID>
+   <SITENAME>
+     SITE5
+   </SITENAME>
+   <PORT>
+     9390
+   </PORT>
+   <IP>     
+     172.23.121.208
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG38
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-191
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9391
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG39
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-192
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9392
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG39
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-193
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9393
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG39
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-194
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9394
+   </PORT>
+   <IP>     
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG40
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-195
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9395
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG40
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-196
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9396
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG40
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-197
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9397
+   </PORT>
+   <IP>
+    172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG40
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-198
+   </TID>
+   <SITENAME>
+     SITE6
+   </SITENAME>
+   <PORT>
+     9398
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG40
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-199
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9399
+   </PORT>
+   <IP>     
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG40
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE>
+   <TID>
+     EMS7100-200
+   </TID>
+   <SITENAME>
+     SITE7
+   </SITENAME>
+   <PORT>
+     9400
+   </PORT>
+   <IP>
+     172.23.121.209
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     OLT1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG40
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.0.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+    <SUPPORTEDAUTONOMOUS>
+     pm1
+     pm2
+   </SUPPORTEDAUTONOMOUS>
+   
+</NE>
+
+<SERVERGROUP>
+   <AID>
+      SG1
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG2
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG3
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG4
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG5
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG6
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG7
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG8
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG9
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG10
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG11
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG12
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG13
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG14
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG15
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG16
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG17
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG18
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG19
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG20
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG21
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG22
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG23
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG24
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG25
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG26
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG27
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG28
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG29
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG30
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG31
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG32
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG33
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG34
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG35
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG36
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG37
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG38
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG39
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SERVERGROUP>
+   <AID>
+      SG40
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp30
+   </VERSION>
+</SERVERGROUP>
+
+<SITE>
+   <AID>
+      SITE1
+   </AID>
+</SITE>
+
+<SITE>
+   <AID>
+      SITE2
+   </AID>
+</SITE>
+
+<SITE>
+   <AID>
+      SITE3
+   </AID>
+</SITE>
+
+<SITE>
+   <AID>
+      SITE5
+   </AID>
+</SITE>
+
+<SITE>
+   <AID>
+      SITE6
+   </AID>
+</SITE>
+
+<SITE>
+   <AID>
+      SITE7
+   </AID>
+</SITE>
+
+<AUTONOMOUS>
+   <AID>
+     alarm1
+   </AID>
+   <REPORT>
+    [HEADER]
+*   581 REPT ALM EQPT
+    "MOAM-1-4:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   0
+   </INITIALDELAY>
+   <SCHEDULE>
+   1800000
+   </SCHEDULE>
+   <TYPE>
+   alarm
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     clear1
+   </AID>
+   <REPORT>
+   [HEADER]
+A   583 REPT ALM EQPT
+   "MOAM-1-4:CL,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   18000
+   </INITIALDELAY>
+   <SCHEDULE>
+   1800000
+   </SCHEDULE>
+   <TYPE>
+   clear
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     alarm2
+   </AID>
+   <REPORT>
+    [HEADER]
+*   581 REPT ALM EQPT
+    "MOAM-1-4:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   36000
+   </INITIALDELAY>
+   <SCHEDULE>
+   1800000
+   </SCHEDULE>
+   <TYPE>
+   alarm
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     clear2
+   </AID>
+   <REPORT>
+   [HEADER]
+A   583 REPT ALM EQPT
+   "MOAM-1-4:CL,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   54000
+   </INITIALDELAY>
+   <SCHEDULE>
+   1800000
+   </SCHEDULE>
+   <TYPE>
+   clear
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     alarm3
+   </AID>
+   <REPORT>
+    [HEADER]
+*   581 REPT ALM EQPT
+    "MOAM-1-4:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   72000
+   </INITIALDELAY>
+   <SCHEDULE>
+   1800000
+   </SCHEDULE>
+   <TYPE>
+   alarm
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     clear3
+   </AID>
+   <REPORT>
+   [HEADER]
+A   583 REPT ALM EQPT
+   "MOAM-1-4:CL,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   90000
+   </INITIALDELAY>
+   <SCHEDULE>
+   1800000
+   </SCHEDULE>
+   <TYPE>
+   clear
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     alarm4
+   </AID>
+   <REPORT>
+    [HEADER]
+*   581 REPT ALM EQPT
+    "MOAM-1-4:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   108000
+   </INITIALDELAY>
+   <SCHEDULE>
+   1800000
+   </SCHEDULE>
+   <TYPE>
+   alarm
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     clear4
+   </AID>
+   <REPORT>
+   [HEADER]
+A   583 REPT ALM EQPT
+   "MOAM-1-4:CL,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   126000
+   </INITIALDELAY>
+   <SCHEDULE>
+   1800000
+   </SCHEDULE>
+   <TYPE>
+   clear
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     alarm5
+   </AID>
+   <REPORT>
+    [HEADER]
+*   581 REPT ALM EQPT
+    "MOAM-1-4:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   144000
+   </INITIALDELAY>
+   <SCHEDULE>
+   1800000
+   </SCHEDULE>
+   <TYPE>
+   alarm
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     clear5
+   </AID>
+   <REPORT>
+   [HEADER]
+A   583 REPT ALM EQPT
+   "MOAM-1-4:CL,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </REPORT>
+   <INITIALDELAY>
+   162000
+   </INITIALDELAY>
+   <SCHEDULE>
+   1800000
+   </SCHEDULE>
+   <TYPE>
+   clear
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     pm1
+   </AID>
+   <REPORT>
+   [HEADER]
+A   527 REPT PM OCH
+   "OCH-L-1-1-1-1:OPR,NA,NA,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPR-F,NA,NA,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPR-C,NA,NA,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPT,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPT-F,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPT-C,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+;
+
+   [HEADER]
+A   528 REPT PM OCH
+   "OCH-L-1-1-1-2:OPR,NA,NA,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-2:OPR-F,NA,NA,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-2:OPR-C,NA,NA,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-2:OPT,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-2:OPT-F,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-2:OPT-C,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+;
+
+   [HEADER]
+A   529 REPT PM OCH
+   "OCH-1-8-1-1:OPT,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-1-8-1-1:OPT-F,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OCH-1-8-1-1:OPT-C,NA,NA,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+;
+   [HEADER]
+A   530 REPT PM OMS
+   "OMS-1-1-1:OPR,(-99.0),PRTL,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OMS-1-1-1:OPR-F,(-99.0),PRTL,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OMS-1-1-1:OPR-C,(-99.0),PRTL,NEND,TDTC,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OMS-1-1-1:OPT,(-99.0),PRTL,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OMS-1-1-1:OPT-F,(-99.0),PRTL,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   "OMS-1-1-1:OPT-C,(-99.0),PRTL,NEND,TDTN,15-MIN,[DATE],[TIME-NO-SECONDS]"
+   </REPORT>
+   <INITIALDELAY>
+   0
+   </INITIALDELAY>
+   <SCHEDULE>
+   900000
+   </SCHEDULE>
+   <TYPE>
+   pm
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     pm2
+   </AID>
+   <REPORT>
+   [HEADER]
+A   531 REPT PM OCH
+   "OCH-L-1-1-1-1:OPR,NA,NA,NEND,TDTC,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPR-F,NA,NA,NEND,TDTC,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPR-C,NA,NA,NEND,TDTC,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPT,NA,NA,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPT-F,NA,NA,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-1:OPT-C,NA,NA,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+;
+
+   [HEADER]
+A   532 REPT PM OCH
+   "OCH-L-1-1-1-2:OPR,NA,NA,NEND,TDTC,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-2:OPR-F,NA,NA,NEND,TDTC,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-2:OPR-C,NA,NA,NEND,TDTC,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-2:OPT,NA,NA,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-2:OPT-F,NA,NA,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-L-1-1-1-2:OPT-C,NA,NA,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+;
+
+   [HEADER]
+A   533 REPT PM OCH
+   "OCH-1-8-1-1:OPT,NA,NA,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-1-8-1-1:OPT-F,NA,NA,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OCH-1-8-1-1:OPT-C,NA,NA,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+;
+   [HEADER]
+A   534 REPT PM OMS
+   "OMS-1-1-1:OPR,(-99.0),PRTL,NEND,TDTC,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OMS-1-1-1:OPR-F,(-99.0),PRTL,NEND,TDTC,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OMS-1-1-1:OPR-C,(-99.0),PRTL,NEND,TDTC,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OMS-1-1-1:OPT,(-99.0),PRTL,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OMS-1-1-1:OPT-F,(-99.0),PRTL,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   "OMS-1-1-1:OPT-C,(-99.0),PRTL,NEND,TDTN,1-DAY,[DATE],[TIME-NO-SECONDS]"
+   </REPORT>
+   <INITIALDELAY>
+   0
+   </INITIALDELAY>
+   <SCHEDULE>
+   86400000
+   </SCHEDULE>
+   <TYPE>
+   pm
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     tca1
+   </AID>
+   <RESPONSE>
+   response
+   </RESPONSE>
+   <INITIALDELAY>
+   0
+   </INITIALDELAY>
+   <SCHEDULE>
+   30
+   </SCHEDULE>
+   <TYPE>
+   tca
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+     tca2
+   </AID>
+   <RESPONSE>
+   pm
+   </RESPONSE>
+   <INITIALDELAY>
+   0
+   </INITIALDELAY>
+   <SCHEDULE>
+   60
+   </SCHEDULE>
+   <TYPE>
+   clear
+   </TYPE>
+</AUTONOMOUS>
+
+<CONFIGPATH>
+  <AID>
+  OLT1
+  </AID>
+  <PATH>
+  ../cfg/xml/OLT1.xml
+  </PATH>
+</CONFIGPATH>
+
+<CONFIGPATH>
+  <AID>
+  SBOADM1
+  </AID>
+  <PATH>
+  ../cfg/xml/SBOADM1.xml
+  </PATH>
+</CONFIGPATH>
+
+</SIM>

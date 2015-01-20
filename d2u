@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+for file in $*
+do
+    dos2unix ${file} ${file}
+done
+
+echo "done!"

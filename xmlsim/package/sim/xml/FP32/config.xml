@@ -1,0 +1,568 @@
+<?xml version="1.0"?>
+
+<SIM>
+
+<NE> /// a comment
+   <TID>      
+     SBOADM1
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9101
+   </PORT>
+   <IP>     
+     172.23.120.18
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     RCMM
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.2.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+   dltfib
+   entfib
+   dltochdp4
+   dltochdp3
+   dltochdp2
+   dltochdp1
+   entochdp4
+   entochdp3
+   entochdp2
+   entochdp1  
+   ffpoc123104 
+   delffpoc123104
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     SBOADM2
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9102
+   </PORT>
+   <IP>     
+     172.23.120.18
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     RCMM
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.2.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+   dltfib
+   entfib
+   dltochdp4
+   dltochdp3
+   dltochdp2
+   dltochdp1
+   entochdp4
+   entochdp3
+   entochdp2
+   entochdp1  
+   ffpoc123104 
+   delffpoc123104
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     SBOADM3
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9103
+   </PORT>
+   <IP>     
+     172.23.120.18
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     RCMM
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.2.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+   dltfib
+   entfib
+   dltochdp4
+   dltochdp3
+   dltochdp2
+   dltochdp1
+   entochdp4
+   entochdp3
+   entochdp2
+   entochdp1  
+   ffpoc123104 
+   delffpoc123104
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     SBOADM4
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9104
+   </PORT>
+   <IP>     
+     172.23.120.18
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     RCMM
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.2.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+   dltfib
+   entfib
+   dltochdp4
+   dltochdp3
+   dltochdp2
+   dltochdp1
+   entochdp4
+   entochdp3
+   entochdp2
+   entochdp1  
+   ffpoc123104 
+   delffpoc123104
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     SBOADM5
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9105
+   </PORT>
+   <IP>     
+     172.23.120.18
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     RCMM
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.2.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+   dltfib
+   entfib
+   dltochdp4
+   dltochdp3
+   dltochdp2
+   dltochdp1
+   entochdp4
+   entochdp3
+   entochdp2
+   entochdp1  
+   ffpoc123104 
+   delffpoc123104
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<NE> /// a comment
+   <TID>      
+     SBOADM6
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9106
+   </PORT>
+   <IP>     
+     172.23.120.18
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     RCMM
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+   <NEVERSION>
+     TELLABS_7100.3.2.0A
+   </NEVERSION>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+   dltfib
+   entfib
+   dltochdp4
+   dltochdp3
+   dltochdp2
+   dltochdp1
+   entochdp4
+   entochdp3
+   entochdp2
+   entochdp1  
+   ffpoc123104 
+   delffpoc123104
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<SERVERGROUP>
+   <AID>
+      SG1
+   </AID>
+   <NUMBERNES>
+      10
+   </NUMBERNES>
+   <VERSION>
+     7100_fp20
+   </VERSION>
+</SERVERGROUP>
+
+<SITE>
+   <AID>
+      SITE1
+   </AID>
+</SITE>
+
+<SITE>
+   <AID>
+      SITE2
+   </AID>
+</SITE>
+
+<SITE>
+   <AID>
+      SITE3
+   </AID>
+</SITE>
+
+
+<AUTONOMOUS>
+   <AID>
+    ffpoc123104
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-FFP-GOPT:GOPT-W-2-17-2,GOPT-P-2-17-3::SCHEME=1P1,RVTRV=N,WTR=1200:IS-NR,NOREQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   ffpoc123104
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    delffpoc123104
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-FFP-GOPT:GOPT-W-2-17-2,GOPT-P-2-17-3:"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   delffpoc123104
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    entochdp1
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OCH:OCH-DP-1-3-1::ALMPF=99:IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   ochp3109
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    entochdp2
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OCH:OCH-DP-1-7-1::ALMPF=99:IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   entochdp2
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    entochdp3
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OCH:OCH-DP-1-10-1::ALMPF=99:IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   entochdp3
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    entochdp4
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-OCH:OCH-DP-1-14-1::ALMPF=99:IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   entochdp4
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    dltochdp1
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-OCH:OCH-DP-1-3-1::ALMPF=99:IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   dltochdp1
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    dltochdp2
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-OCH:OCH-DP-1-7-1::ALMPF=99:IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   dltochdp2
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    dltochdp3
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-OCH:OCH-DP-1-10-1::ALMPF=99:IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   dltochdp3
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    dltochdp4
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-OCH:OCH-DP-1-14-1::ALMPF=99:IS-IR,UEQ"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   dltochdp4
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    entfib
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:ED-FIBR:RCMM-1-10,RCMM-1-14:"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   entfib
+   </TYPE>
+</AUTONOMOUS>
+
+<AUTONOMOUS>
+   <AID>
+    dltfib
+   </AID>
+   <REPORT>
+[SPC][SPC][SPC][HEADER]
+A  685 REPT DBCHG
+[SPC][SPC][SPC]"TIME=15-27-11,DATE=03-08,,,DBCHGSEQ=652:DLT-FIBR:RCMM-1-10,RCMM-1-14:"
+   </REPORT>
+   <INITIALDELAY>
+   1000 /// 1 second
+   </INITIALDELAY>
+   <SCHEDULE>
+   2000 /// 2 seconds * 1000 milli seconds
+   </SCHEDULE>
+   <TYPE>
+   entfib
+   </TYPE>
+</AUTONOMOUS>
+
+<CONFIGPATH>
+  <AID>
+  RCMM
+  </AID>
+  <PATH>
+  xml/SBOADM_RCMM.xml
+  </PATH>
+</CONFIGPATH>
+
+
+</SIM>

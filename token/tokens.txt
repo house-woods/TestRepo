@@ -1,0 +1,1853 @@
+CMD:MEAS-OPTPWR
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-ADJ-ROUTER
+ ""
+ ""
+ "specific_block"
+CMD:RTRV-ALM-ALL
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-CERT
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-DB
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-DHCP
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-E1
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-ENV
+ "aid"
+ "ntfcncde,condtype,ocrdat,ocrtm,conddescr"
+CMD:RTRV-ALM-EQPT
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-GBEP
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-GFP
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-GOPT
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-GOPTM
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-LAPD
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-NTPPEER
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OC12
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OC12M
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OC192
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OC3
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OC3M
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OC48
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OC48M
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OC768
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OCH
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-ODU1
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-ODU2
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OMS
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OPTD
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OSC
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OSIRTR
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OTS
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OTU1
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-OTU2
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-PPP
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-ROUTER
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STM1
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STM16
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STM16T
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STM1T
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STM256
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STM4
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STM4T
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STM64
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STS1
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STS12C
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STS3C
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-STS48C
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-SW
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-T1
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-TGBEP
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-TGFC
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-TGLAN
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-TODCLOCK
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-UID
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-VC3
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-VC4
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-VC416C
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALM-VC44C
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-ALMPF-ALL
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-DB
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-EQPT
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-GBEP
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-GOPT
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-NTPPEER
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OC12
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OC192
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OC3
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OC48
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OC768
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OCH
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-ODU1
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-ODU2
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OMS
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OSC
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OTS
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OTU1
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-OTU2
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-STM1
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-STM16
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-STM256
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-STM4
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-STM64
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-SW
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-TGBEP
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-TGFC
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-TGLAN
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-TODCLOCK
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ALMPF-UID
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,locn,dirn,tmper"
+CMD:RTRV-ARC-ALL
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-E1
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-EQPT
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-GBEP
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-GFP
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-GOPT
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OC12
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OC12M
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OC192
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OC3
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OC3M
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OC48
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OC48M
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OC768
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OCH
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-ODU1
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-ODU2
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OPTD
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OTU1
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-OTU2
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-SFP
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STM1
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STM16
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STM16T
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STM1T
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STM256
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STM4
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STM4T
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STM64
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STS1
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STS12C
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STS3C
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-STS48C
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-T1
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-TGFC
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-TGLAN
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-VC3
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-VC4
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-VC416C
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-VC44C
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ARC-XFP
+ "aid,aidtype"
+ "arc_mode,arc_invl,arc_tmrmg"
+CMD:RTRV-ATTN-OCH
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-ATTN-OMS
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-ATTR-CONT
+ "aid"
+ "cont_type"
+CMD:RTRV-ATTR-ENV
+ "aid"
+ "ntfcncde,almtype,almmsg"
+CMD:RTRV-BER
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-BKUPSCHED-MEM
+ "aid,aidtype"
+ "rem_server_url,backup_invl,date,time,inhmode"
+CMD:RTRV-BL
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-CALL
+ ""
+ ""
+ "specific_block"
+CMD:RTRV-CERT
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-CNAMETIDMAP
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-COND-ALL
+ "aid,aidtype"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:RTRV-CONN
+ ""
+ ""
+ "specific_block"
+CMD:RTRV-CPPF
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-CRS-GBEP
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-GOPT
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-OC12
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-OC192
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-OC3
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-OC48
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-OC768
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-OCH
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-ODU1
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-ODU2
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-OPTD
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-OTU1
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-OTU2
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STM1
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STM16
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STM16T
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STM1T
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STM4
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STM4T
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STS1
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STS12C
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STS12T
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STS1CNV
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STS3C
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STS3CNV
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STS3T
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STS48C
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-STS48T
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-TGFC
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-TGLAN
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-VC
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-VC3
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-VC3NV
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-VC4
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-VC416C
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-VC44C
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-CRS-VC4NV
+ "aid"
+ "cc_type"
+ "specific_block"
+ "state_block"
+CMD:RTRV-DB
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-DHCP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-DHCPIPADDR
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-DISP-OCH
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-E1
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-ENGIDMAP
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-EQPT
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-EXT-CONT
+ "aid"
+ "cont_type,duration,cont_state"
+CMD:RTRV-FFP-GBEP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-GOPT
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-OC12
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-OC192
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-OC3
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-OC48
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-OC768
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-OCH
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-OPTD
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-STM1
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-STM16
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-STM256
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-STM4
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FFP-STM64
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-FIBR-EQPT
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-FTPSERVER
+ "aid"
+ "userid,pwd,ip_addr,port,url_path"
+CMD:RTRV-GAIN-OCH
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-GAIN-OTS
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-GBEP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-GFP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-GOPT
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-GOPTM
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-INV
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-LAPD
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-LAPDPF
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-LEDS
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-LINKPF
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-MAP-NEIGHBOR
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-MAP-NETWORK
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-NE
+ "specific_block"
+ "state_block"
+CMD:RTRV-NET
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-NETYPE
+ "NENAME,TYPE,STYPE,SWVER,pst,sst"
+CMD:RTRV-NODE
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-NP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-NP-STATS
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-NTPPEER
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OC12
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OC12M
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OC192
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OC3
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OC3M
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OC48
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OC48M
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OC768
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OCH
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-ODU1
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-ODU2
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OMS
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OPTD
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OPTPWR
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-OPTPWR-OTS
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-OSC
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OSCX
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OSIRTR
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OSPF
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OSPFADJ
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OSPFAREA
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OSPFRP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OSPFRPMAP
+ "aid"
+CMD:RTRV-OTS
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OTU1
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-OTU2
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-PM-ALL
+ ",ALL"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-EQPT
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-GBEP
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-GFP
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-GOPT
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-GOPTM
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OC12
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OC12M
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OC192
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OC3
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OC3M
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OC48
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OC48M
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OC768
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OCH
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-ODU1
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-ODU2
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OMS
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OPTD
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OSC
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OTU1
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-OTU2
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STM1
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STM16
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STM16T
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STM1T
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STM256
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STM4
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STM4T
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STM64
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STS1
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STS12C
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STS3C
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-STS48C
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-TGBEP
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-TGFC
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-TGLAN
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-VC3
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-VC4
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-VC416C
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PM-VC44C
+ "aid,aidtype"
+ "montype,monval,vldty,locn,dirn,tmper,mondat,montim"
+CMD:RTRV-PMDAY
+ "pm_day_start"
+CMD:RTRV-PMFILESCHED-STS1
+ "aid,aidtype"
+ "ftpserver_aid,tmper,inhmode"
+CMD:RTRV-PMFILESCHED-STS12C
+ "aid,aidtype"
+ "ftpserver_aid,tmper,inhmode"
+CMD:RTRV-PMFILESCHED-STS3C
+ "aid,aidtype"
+ "ftpserver_aid,tmper,inhmode"
+CMD:RTRV-PMFILESCHED-STS48C
+ "aid,aidtype"
+ "ftpserver_aid,tmper,inhmode"
+CMD:RTRV-PMMODE-EQPT
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-GBEP
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-GFP
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-GOPT
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-GOPTM
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OC12
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OC12M
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OC192
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OC3
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OC3M
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OC48
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OC48M
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OC768
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OCH
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-ODU1
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-ODU2
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OMS
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OPTD
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OSC
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OTU1
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-OTU2
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STM1
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STM16
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STM16T
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STM1T
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STM256
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STM4
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STM4T
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STM64
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STS1
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STS12C
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STS3C
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-STS48C
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-TGBEP
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-TGFC
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-TGLAN
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-VC3
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-VC4
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-VC416C
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMMODE-VC44C
+ "aid"
+ "locn,modetype,pm_state"
+CMD:RTRV-PMSCHED-EQPT
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-GBEP
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-GFP
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-GOPT
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-GOPTM
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OC12
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OC12M
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OC192
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OC3
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OC3M
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OC48
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OC48M
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OC768
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OCH
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-ODU1
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-ODU2
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OMS
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OPTD
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OSC
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OTU1
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-OTU2
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-STM1
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-STM16
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-STM256
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-STM4
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-STM64
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-TGBEP
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-TGFC
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PMSCHED-TGLAN
+ "aid,aidtype"
+ "reptinvl,start_date,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst,inhmode"
+CMD:RTRV-PPP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-PPPPF
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-PTHTRC-OCH
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-PTHTRC-OTS
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-ROUTER
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-RSVP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-RSVPADJ
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-RTE-ALL
+ ""
+ ""
+ "specific_block"
+CMD:RTRV-SECU-SYS
+ "aid"
+ "specific_block"
+CMD:RTRV-SESSION
+ "aid"
+ "specific_block"
+CMD:RTRV-SFP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-SGNLRT
+ "aid"
+ "rate,rate_desc,fac_type"
+CMD:RTRV-SLPF
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-SLPOLICY
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-SNMP
+ "aid"
+ ""
+ ""
+ "state_block"
+CMD:RTRV-STAT-RTE
+ ""
+ ""
+ "specific_block"
+CMD:RTRV-STM1
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STM16
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STM16T
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STM1T
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STM256
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STM4
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STM4T
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STM64
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STS1
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STS12C
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STS12T
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STS1C22V
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STS1CNV
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STS3C
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STS3CNV
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STS3T
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STS48C
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-STS48T
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-SW
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-SYNC
+ "aid"
+ ""
+ ""
+ "state_block"
+CMD:RTRV-SYS
+ "aid"
+ "SWVER,,TYPE,STATUS"
+CMD:RTRV-T1
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-TARP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-TCA-ALL
+ "aid,aidtype"
+ "condtype,ocrdat,ocrtm,locn,dirn,tmper"
+CMD:RTRV-TCAMODE-EQPT
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-GBEP
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-GFP
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-GOPT
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-GOPTM
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OC12
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OC12M
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OC192
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OC3
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OC3M
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OC48
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OC48M
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OC768
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OCH
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-ODU1
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-ODU2
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OPTD
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OSC
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OTU1
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-OTU2
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STM1
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STM16
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STM16T
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STM1T
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STM256
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STM4
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STM4T
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STM64
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STS1
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STS12C
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STS3C
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-STS48C
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-TGBEP
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-TGFC
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-TGLAN
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-VC3
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-VC4
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-VC416C
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TCAMODE-VC44C
+ "aid"
+ "locn,modetype,tca_state"
+CMD:RTRV-TGBEP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-TGFC
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-TGLAN
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-TH-ALL
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-EQPT
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-GBEP
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-GFP
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-GOPT
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-GOPTM
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OC12
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OC12M
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OC192
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OC3
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OC3M
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OC48
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OC48M
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OC768
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OCH
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-ODU1
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-ODU2
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OMS
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OPTD
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OSC
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OTU1
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-OTU2
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STM1
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STM16
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STM16T
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STM1T
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STM256
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STM4
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STM4T
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STM64
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STS1
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STS12C
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STS3C
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-STS48C
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-TGBEP
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-TGFC
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-TGLAN
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-VC3
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-VC4
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-VC416C
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TH-VC44C
+ "aid,aidtype"
+ "montype,locn,dirn,thlev,tmper"
+CMD:RTRV-TIDIPMAP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-TL
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-TNALNKMAP
+ ""
+ ""
+ "specific_block"
+CMD:RTRV-TOD
+ "year,month,day,hour,minute,second,tmtype,tmsrcdv_current,tmsrcdv_alternate,tmsrc_state"
+CMD:RTRV-UPG-STATE
+ "aid"
+ ""
+ "specific_block"
+CMD:RTRV-USER-SECU
+ "aid"
+ "specific_block"
+CMD:RTRV-VC3
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-VC3NV
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-VC4
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-VC416C
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-VC44C
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-VC4NV
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:RTRV-XFP
+ "aid"
+ ""
+ "specific_block"
+ "state_block"
+CMD:SCHED-PMREPT
+ "reptinvl,start_time,numrept,montype,monlev,locn,dirn,tmper,tmofst"
+CMD:rtrv-alm-all
+ "aid"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn"
+ "conddescr"
+CMD:rtrv-cond-all
+ "aid"
+ "ntfcncde,condtype,srveff,ocrdat,ocrtm,locn,dirn,,conddescr"
+

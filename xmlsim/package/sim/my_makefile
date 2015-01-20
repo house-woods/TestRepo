@@ -1,0 +1,143 @@
+
+include ../OtsGlobalRules.mk
+
+OUTDIR = $(OTS_ROOT)/tools
+
+
+
+##############################################################
+#  The 'all' target might have multiple dependencies, and the
+#  fact that it's not a real file target, we declare it .PHONY.
+#  If MAKELEVEL > 0, then this make file was invoked by a 
+#  build from the Framework directory (vob), so we don't want to
+#  make dependent projects because the parent make file will take
+#  care of that.  If we're building this project by itself,
+#  assume we want to make the dependent projects.
+##############################################################
+
+FW_TARG = sim.exe
+
+OTHER_TARGS = $(FW_TARG)
+
+
+
+PHONY : all
+
+all : $(FW_TARG)
+
+clean : 
+	rm *.o *.exe
+
+SIM_SRCS = \
+	SocketAcceptor.cpp \
+	SocketConnection.cpp \
+	SocketHandler.cpp \
+	SocketListener.cpp \
+	AbstractSocketConnection.cpp \
+	TL1SimSocketAcceptor.cpp \
+	TL1ConnectionManager.cpp \
+	TL1CommandResolver.cpp \
+	XmlParser.cpp \
+	ConfigManager.cpp \
+	BaseException.cpp \
+	AutonomousScheduler.cpp \
+	EmsTaskScheduler.cpp \
+	simulator.cpp 
+
+
+SIM_OBJS = $(SIM_SRCS:.cpp=.o)
+
+
+##############################################################
+#  vpath directive so [clear|gnu]make can find our C++
+#  source file prerequisites, which are typically
+#  scattered all over Framework.  The paths here were
+#  specifically ordered such that they contain from most
+#  to least cpp files needed for SIM.
+##############################################################
+
+SIM_VPATH_DIRS = \
+	. \
+       $(FRAMEWORK_ROOT)/libs/libfw \ 
+
+vpath %.cpp $(SIM_VPATH_DIRS)
+
+
+
+##############################################################
+#  Construct the arguments to the compiler/linker.
+##############################################################
+
+SIM_INCLUDES = \
+        -I$(FRAMEWORK_ROOT)/libs/libtl1 \
+        -I$(FRAMEWORK_ROOT)/libs/libfw \
+	$(OSPACE_INCLUDES) \
+	$(ORB_INCLUDES)
+
+SIM_DEFINES = \
+	$(FW_DEFINES) \
+	$(FWONLY_DEFINES) \
+	$(OSPACE_DEFINES) \
+	$(ORB_DEFINES)
+
+
+SIM_LDFLAGS = \
+        -DOS_USE_STD_IOSTREAMS \
+	-DOS_USE_ALTERNATE_STD \
+	-L$(OBJECTSPACE_HOME)/lib \
+        -L$(ACE_ROOT)/lib \
+        -lACE \
+        -lposix4 \
+        -lospace  
+
+CXXFLAGS = \
+        -DOS_USE_STD_IOSTREAMS \
+	-DOS_USE_ALTERNATE_STD \
+	$(FW_CXXFLAGS) \
+	$(SIM_INCLUDES) \
+	$(SIM_DEFINES) 
+
+
+LDFLAGS = \
+	$(subst $(NOCSTD),,$(FW_CXXFLAGS))\
+	$(SIM_LDFLAGS) 
+
+
+
+##############################################################
+#  Rule for building (linking) SIM
+#  Note: It is always safer to put -lx (where x is the library
+#  name) after the list of sources and objects to insure that
+#  libraries are searched in the correct order.   Hence LDFLAGS
+#  is last.
+#
+#  Note: Files that are copied after linking should be removed
+#  by the "clean" target.  OTHER_TARGS defines those files.
+##############################################################
+
+$(FW_TARG) : $(SIM_OBJS)
+ifeq (1,${SB})
+	@-/bin/echo "$(FW_TARG) source browser info generated."
+else
+	@if test -f $(FW_TARG) || test -h $(FW_TARG) ; then \
+		/bin/rm -f $(FW_TARG) ; \
+	fi
+	@if test -f $(OUTDIR)/$(FW_TARG) || test -h $(OUTDIR)/$(FW_TARG) ; then \
+		/bin/rm -f $(OUTDIR)/$(FW_TARG) ; \
+	fi
+	$(PURIFY_OPT) $(CXX) $(SIM_OBJS) $(LDFLAGS) -o $@
+	@if test -f $(FW_TARG) ; then \
+		/bin/echo Soft linking $(OUTDIR)/$(FW_TARG) to `pwd`/$(FW_TARG) ; \
+		/bin/ln -s `pwd`/$(FW_TARG) $(OUTDIR)/$(FW_TARG) ; \
+	fi
+
+endif
+
+$(OUTDIR)/$(FW_TARG) : $(FW_TARG)
+	@if test -f $(FW_TARG) && test ! -h $(FW_TARG) ; then \
+		/bin/echo Soft linking $(OUTDIR)/$(FW_TARG) to `pwd` ; \
+		/bin/mv -f $(FW_TARG) $(OUTDIR) ; \
+		/bin/ln -s $(OUTDIR)/$(FW_TARG) . ; \
+	fi
+
+

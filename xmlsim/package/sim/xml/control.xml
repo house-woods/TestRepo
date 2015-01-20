@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<AUTOCLIENT>
+
+<COLDSTART>
+   <MODE>
+    YES
+   </MODE>   
+</COLDSTART>
+
+<SITE>
+   <MODE>
+    YES
+   </MODE>   
+</SITE>
+
+<SERVERGROUP>
+   <MODE>
+    YES
+   </MODE>   
+</SERVERGROUP>
+
+<NE>
+   <MODE>
+    YES
+   </MODE>   
+</NE>
+
+<SITELINK>
+   <MODE>
+    NO
+   </MODE>
+</SITELINK>
+
+<DWDMLINK>
+   <MODE>
+    NO
+   </MODE>
+</DWDMLINK>
+
+<CIRCUIT>
+   <MODE>
+    NO
+   </MODE>
+</CIRCUIT>
+
+<AUTO_CIRCUIT>
+   <MODE>
+    NO
+   </MODE>
+</AUTO_CIRCUIT>
+
+<CONFIGPATH>
+  <PATH>
+    ../cfg/xml/config.xml   
+  </PATH>
+</CONFIGPATH>
+
+<CONFIG_LINKS_PATH>
+  <PATH>
+    ../cfg/xml/configLinks.xml
+  </PATH>
+</CONFIG_LINKS_PATH>
+
+<CONFIG_CIRCUITS_PATH>
+  <PATH>
+    ../cfg/xml/configCircuits.xml
+  </PATH>
+</CONFIG_CIRCUITS_PATH>
+
+</AUTOCLIENT>

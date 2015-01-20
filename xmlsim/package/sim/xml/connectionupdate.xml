@@ -1,0 +1,58 @@
+<SIM>
+
+<NE> /// a comment
+   <TID>      
+     EMS7100-20
+   </TID>
+   <SITENAME>
+     SITE1
+   </SITENAME>
+   <PORT>
+     9120
+   </PORT>
+   <IP>     
+     172.23.120.18
+   </IP>
+   <NETYPE>
+     OLT
+   </NETYPE>
+   <CONFIGTYPE>
+     SBOADM1
+   </CONFIGTYPE>
+   <SERVERGROUPNAME>
+     SG1
+   </SERVERGROUPNAME>
+   <PASSWORD>
+     dontcare
+   </PASSWORD>
+      <DEFAULTRESPONSE>
+     COMPLD
+   </DEFAULTRESPONSE>
+   <SUPPORTEDAUTONOMOUS> /// a list of autonomous TIDs
+     alarm1
+     clear1
+     alarm5
+   </SUPPORTEDAUTONOMOUS>
+</NE>
+
+<AUTONOMOUS>
+   <AID>
+     alarm5
+   </AID>
+   <RESPONSE>
+    [HEADER]
+*   581 REPT ALM EQPT
+    "MIAM-1-4:MN,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem- Degraded\""
+   </RESPONSE>
+   <INITIALDELAY>
+   0
+   </INITIALDELAY>
+   <SCHEDULE>
+   60
+   </SCHEDULE>
+   <TYPE>
+   alarm
+   </TYPE>
+</AUTONOMOUS>
+
+</SIM>

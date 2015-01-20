@@ -1,0 +1,4 @@
+#!/bin/ksh
+while read  in1; do
+print "REC $in1"
+done

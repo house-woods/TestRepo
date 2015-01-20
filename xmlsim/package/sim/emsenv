@@ -1,0 +1,17 @@
+PATH=/usr/lib:$PATH
+
+ACE_ROOT=/vobs/cots/TAO/ACE_wrappers/include
+TAO_ROOT=/vobs/cots/TAO/ACE_wrappers/
+PATH=${PATH}:${TAO_ROOT}/TAO_IDL
+PATH=${PATH}:${ACE_ROOT}:${TAO_ROOT}
+LD_LIBRARY_PATH=${ACE_ROOT}/lib:${LD_LIBRARY_PATH}
+export ACE_ROOT
+export TAO_ROOT
+export PATH
+export LD_LIBRARY_PATH
+
+#OSPACE STUFF
+LD_LIBRARY_PATH=ThirdParty/ObjectSpace/lib:${LD_LIBRARY_PATH}
+
+export LD_LIBRARY_PATH
+

@@ -1,0 +1,10 @@
+#!/bin/ksh
+ksh rcvr |&
+while true
+do
+print "Sendto: sending msg to rcvr"
+print -p "1234567890"
+print "waiting..."
+read -p in1
+print "Getfrom: got reply from rcvr=$in1"
+done

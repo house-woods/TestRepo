@@ -1,0 +1,43 @@
+/*
+ * Copyright 2001 Sun Microsystems, Inc. ALL RIGHTS RESERVED
+ * Use of this software is authorized pursuant to the
+ * terms of the license found at
+ * http://developers.sun.com/berkeley_license.html
+ */
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <signal.h>
+#include <unistd.h>
+
+static void handle_crash(int sig)
+{
+  char buf[128];
+
+  printf("Processing signal %d\n", sig);
+  /* generate traceback to stdout and copy to /var/tmp/traceback.txt */
+  sprintf(buf, "/usr/proc/bin/pstack %d "
+    "|/bin/tee /var/tmp/traceback.txt\n", (int)getpid());
+  /* undefine LD_PRELOAD to avoid 64-bit problems */
+  (void)putenv("LD_PRELOAD=");
+  system(buf);
+  /* a file in /var/tmp will survive a reboot but not in /tmp */
+  printf("A copy of the traceback is stored in /var/tmp/traceback.txt\n");
+  exit(1);
+}
+
+/* pragma init is SVR4-specific, executes before main() */
+#pragma init (install_handlers)
+static void install_handlers(void)
+{
+  struct sigaction action;
+
+  action.sa_handler = handle_crash;
+  if (sigemptyset(&action.sa_mask))
+    perror("sigemptyset() failure");
+  if (sigaction(SIGSEGV, &action, NULL))
+    perror("Can't set up a signal handler for SIGSEGV");
+  if (sigaction(SIGBUS, &action, NULL))
+    perror("Can't set up a signal handler for SIGBUS");
+  /* Can add more signals here if necessary */
+}

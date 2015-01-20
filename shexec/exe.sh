@@ -1,0 +1,4 @@
+echo "begin..."
+
+exec date
+
